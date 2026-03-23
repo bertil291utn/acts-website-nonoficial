@@ -1,0 +1,257 @@
+{
+  "Metadata": {
+    "defaultTitle": "Hechos29 | La historia continúa…",
+    "defaultDescription": "Hechos29 aspira a ser un movimiento misionero multicultural internacional de jóvenes, cuyas vidas han sido disciplinadas y transformadas para un liderazgo misionero en la Iglesia y en el mundo."
+  },
+  "Nav": {
+    "brandTitle": "Hechos 29",
+    "home": "Inicio",
+    "schools": "Escuelas",
+    "ecuador": "Ecuador",
+    "info": "Info",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "applyEcuador": "Aplicar · Ecuador 2026",
+    "langEn": "English",
+    "langEs": "Español",
+    "langSv": "Sueco",
+    "languageNav": "Idioma"
+  },
+  "Footer": {
+    "explore": "Explorar",
+    "nextSchool": "Próxima escuela",
+    "ecuadorHub": "Hub Ecuador",
+    "ecuador2026": "Ecuador 2026 (detalles)",
+    "ecuadorCountry": "Sobre Ecuador (país)",
+    "allSchools": "Todas las escuelas",
+    "connect": "Conectar",
+    "copyright": "© {year} Hechos29",
+    "coordinatorsLine": "Coordinadores por país · ver",
+    "infoLink": "Info"
+  },
+  "funnel": {
+    "primaryCta": "Aplicar a Ecuador 2026",
+    "secondaryCta": "Escuelas",
+    "pathTitle": "De la primera conversación al envío",
+    "pathBody": "Un camino claro: descubre la visión, conecta con el coordinador de tu país, prepárate con tu iglesia y únete a la próxima escuela.",
+    "pathCta": "Cómo unirse",
+    "steps": {
+      "s1": "Explorar visión y escuelas",
+      "s2": "Hablar con un coordinador",
+      "s3": "Aplicar y prepararse",
+      "s4": "Asistir y continuar la historia"
+    },
+    "coordinators": "Contacto y coordinadores"
+  },
+  "Home": {
+    "eyebrow": "Internacional · Multicultural · Misión",
+    "heroLine1": "Discipulado para la misión.",
+    "heroLine2": "Enviados al mundo.",
+    "heroBody": "Hechos29 aspira a ser un movimiento misionero multicultural internacional de jóvenes, cuyas vidas han sido discipuladas y transformadas para un liderazgo misionero en la Iglesia y en el mundo.",
+    "photoAlt": "Hechos29 — comunidad en una escuela",
+    "quoteCard": "«La historia continúa…»",
+    "quoteSub": "Escuelas en todos los continentes · Una visión compartida",
+    "partnersEyebrow": "En alianza",
+    "partners": {
+      "p1": "Iglesia del Pacto Misionero de Suecia (Mission Covenant Church of Sweden)",
+      "p2": "Iglesia del Pacto Evangélico del Ecuador (IPEE)"
+    },
+    "visionTitle": "Nuestra visión",
+    "visionQuote": "Hechos29 aspira a ser un movimiento misionero multicultural internacional de jóvenes, cuyas vidas han sido disciplinadas y transformadas para un liderazgo misionero en la Iglesia y en el mundo.",
+    "pillars": {
+      "d1": {
+        "title": "Escuela de discipulado",
+        "body": "Participamos en el proceso de formar vidas en comunidad al seguir a Jesús. No nos limitamos a impartir conocimiento."
+      },
+      "d2": {
+        "title": "Escuela de liderazgo",
+        "body": "Confiamos a los jóvenes un liderazgo delegado. Los mentoramos y empoderamos para que sean líderes siervos."
+      },
+      "d3": {
+        "title": "Escuela de misión",
+        "body": "Animamos a los jóvenes a participar en la misión de Dios de reconciliar todas las cosas consigo mismo."
+      }
+    },
+    "stats": {
+      "s1": { "value": "20", "label": "Años de historia" },
+      "s2": { "value": "13", "label": "Escuelas en Ecuador desde 2004" },
+      "s3": { "value": "15+", "label": "Naciones que han acogido escuelas" }
+    },
+    "celebrateEyebrow": "Celebramos",
+    "celebrateTitle": "20 años",
+    "celebrateSubtitle": "de historia",
+    "celebrateBody": "Celebramos la fidelidad de Dios a través de escuelas que transforman vidas. Cada año organizamos distintas escuelas pensadas para impactar a cada estudiante y a las naciones a las que llegan.",
+    "celebrateAlt": "Hechos29 — celebración y comunidad",
+    "movementTitle": "Hechos29 — cómo nació el movimiento",
+    "movementBody": "El movimiento comenzó como una alianza entre la Iglesia del Pacto Evangélico del Ecuador y la Iglesia del Pacto Misionero de Suecia. La primera escuela fue en Montecristi, Ecuador, en 2004. Desde entonces Chile, República Democrática del Congo, República del Congo, Finlandia, India, México, Rusia, España, Suecia, China y Tailandia han acogido escuelas, mientras otras naciones han enviado participantes.",
+    "ecuadorEyebrow": "Ecuador 2026",
+    "ecuadorTitle": "Nuevas aventuras en los Andes y el Amazonas",
+    "ecuadorBody": "Si tu corazón late por las misiones y anhelas ver vidas transformadas, este es tu momento. Únete a la Escuela Hechos29 2026 y sé parte de lo que Dios está haciendo — con socios Equmenia e IPEE y participantes de muchas naciones.",
+    "ecuadorHub": "Hub Ecuador",
+    "ecuadorArticle": "Sobre Ecuador (país)",
+    "communityAlt": "Hechos29 en Ecuador — comunidad",
+    "closingTitle": "Dónde encontrarnos",
+    "closingBody": "Contactos de coordinadores de Hechos29 en cada país — escribe a info@Hechos29.world o a tu coordinador local desde Info.",
+    "closingBlog": "Blog y novedades",
+    "stepLabel": "Paso {n}"
+  },
+  "Schools": {
+    "metaTitle": "Escuelas | Hechos29",
+    "metaDescription": "Escuelas Hechos29 en el mundo — intensivos que forman discípulos y líderes en comunidad.",
+    "heroTitle": "Escuelas",
+    "heroSubtitle": "Hechos29 News — extractos de publicaciones recientes sobre escuelas y encuentros del movimiento.",
+    "heroAlt": "Hechos29 escuelas — grupo",
+    "kicker": "Hechos29",
+    "intro": "Cada escuela se realiza con socios locales. No todos los países tienen escuela cada año — tu coordinador te ayuda al siguiente paso, cerca o lejos.",
+    "regions": {
+      "latam": { "name": "Latinoamérica", "note": "Historial fuerte de escuelas en alianza — Ecuador, México, Chile — y participantes regionales." },
+      "europe": { "name": "Europa y Nórdico", "note": "Incluye Suecia, Finlandia y España; equipos nórdicos suelen ayudar a preparar participantes para escuelas en el extranjero." },
+      "other": { "name": "Otras regiones", "note": "También se han celebrado escuelas en India, Tailandia, RDC, Congo, Rusia, China y más — consulta a coordinadores por aperturas actuales." }
+    },
+    "places": {
+      "latam": ["Ecuador", "México", "Chile"],
+      "europe": ["Suecia", "Finlandia", "España"],
+      "other": ["India", "Tailandia", "RDC", "Congo", "Rusia", "China"]
+    },
+    "newsTitle": "Hechos29 News",
+    "news1Title": "La tierra bajo el sol — Ecuador",
+    "news1Body": "Hechos29 vuelve al país donde todo comenzó hace 22 años: Andes y Amazonas; 13 escuelas en Ecuador desde 2004; alianza Equmenia + IPEE desde principios de los 70; congregaciones en todo el país.",
+    "news2Title": "Kongo-Brazzaville 2026",
+    "news2Body": "De vuelta al Congo — escuelas en 2008, 2010 y 2018; historia misionera sueca en la región desde 1909.",
+    "ctaTitle": "Próxima apertura — Ecuador 2026",
+    "ctaBody": "Fechas, coste, idiomas y fecha límite de solicitud están en el artículo Ecuador 2026. Empieza ahí y mantén contacto con tu coordinador.",
+    "ctaHub": "Ecuador 2026 — hub escuela",
+    "ctaCountry": "Sobre Ecuador (país)"
+  },
+  "Info": {
+    "metaTitle": "Contactos | Hechos29",
+    "metaDescription": "Escríbenos — coordinadores de Hechos29 por país, correo info@Hechos29.world y preguntas frecuentes.",
+    "heroTitle": "Contacto",
+    "heroSubtitle": "Dónde encontrarnos — contactos de coordinadores de Hechos29 en cada país.",
+    "heroAlt": "Hechos29 — contacto",
+    "kicker": "En contacto",
+    "formTitle": "Escríbenos",
+    "formNote": "Te responderemos lo antes posible. Este formulario es estático en esta vista — usa info@Hechos29.world o la tabla de coordinadores para consultas reales.",
+    "labels": { "name": "Nombre *", "email": "Correo *", "country": "País", "message": "Mensaje" },
+    "submit": "Enviar",
+    "asideTitle": "Suecia (Equmenia)",
+    "asideBody": "Contacto en Suecia: Carl-Johan Sävinger — carl-johan.savinger@equmenia.se. ¿Quieres llamarnos? Llama o escríbenos por WhatsApp; consulta la tabla para tu país.",
+    "asideEmailLabel": "Correo general",
+    "asideEmail": "info@Hechos29.world",
+    "asideSocialLabel": "Redes",
+    "asideSocialLink": "Enlaces en el pie del sitio",
+    "tableSectionTitle": "Coordinadores por país",
+    "tableSectionLead": "Contactos de coordinadores de Hechos29 en cada país (según Hechos29.world).",
+    "tableCaption": "Coordinadores Hechos29",
+    "colCountry": "País",
+    "colContact": "Contacto",
+    "colPhone": "Teléfono",
+    "colEmail": "Correo",
+    "faqTitle": "Preguntas frecuentes",
+    "faq1": { "q": "Vivo en Suecia o Finlandia — ¿cómo me uno?", "a": "Escribe a Carl-Johan Sävinger (Suecia, Equmenia) o a los coordinadores finlandeses en la tabla. Comparten próximas escuelas y rutas de preparación." },
+    "faq2": { "q": "Estoy en las Américas — ¿cuál es el camino?", "a": "Usa el coordinador de tu país. Ecuador 2026 es una escuela próxima clave; tu coordinador ayuda con idioma, viaje e iglesia." },
+    "faq3": { "q": "¿Hay un solo currículo en todo el mundo?", "a": "La misma visión y las tres escuelas — discipulado, liderazgo, misión — mientras cada escuela se adapta a socios y participantes locales." }
+  },
+  "Blog": {
+    "metaTitle": "Blog | Hechos29",
+    "metaDescription": "Historias y artículos del movimiento Hechos29 (Hechos29).",
+    "eyebrow": "Blog",
+    "title": "Historias y novedades",
+    "intro": "Títulos recientes del feed del blog de Hechos29.world: Ecuador 2026, Kongo-Brazzaville 2026, Sudáfrica 2026, Colombia 2025 y Esuatini 2025.",
+    "read": "Leer artículo →"
+  },
+  "EcuadorPage": {
+    "metaTitle": "Ecuador 2026 | Hechos29",
+    "metaDescription": "Escuela Hechos29 2026 en Ecuador — fechas, programa, alianza con IPEE y cómo aplicar.",
+    "heroTitle": "Ecuador 2026",
+    "heroAlt": "Ecuador — Andes",
+    "moreAboutEcuador": "Más sobre Ecuador",
+    "communityImageAlt": "Comunidad Hechos29 en Ecuador",
+    "bandTitle": "Ecuador 2026",
+    "bandBody": "Agosto–noviembre 2026 · inglés y español · 2 100 USD · solicitud antes del 31 de julio de 2026.",
+    "bandCta": "Contactar coordinadores",
+    "beforeTitle": "Antes de aplicar",
+    "checks": [
+      "Corazón por las misiones y disposición a aprender en comunidad multicultural.",
+      "Vínculo activo con una iglesia local (o camino claro con un coordinador).",
+      "Pasaporte y viaje si vienes de otro país.",
+      "Documentos: formulario de solicitud y referencia pastoral (consulta al coordinador)."
+    ],
+    "contactCta": "Contactar coordinadores",
+    "schoolsCta": "Todas las escuelas",
+    "applyLatamTitle": "Solicitantes de Latinoamérica",
+    "applyLatamBody": "Descarga el formulario de solicitud y la referencia pastoral oficiales en español (Word) desde Hechos29.world.",
+    "downloadApplicationForm": "Descargar formulario de solicitud (.docx)",
+    "downloadPastoralReference": "Descargar referencia pastoral (.docx)",
+    "applyEuropeTitle": "Solicitantes de Europa o fuera de Latinoamérica",
+    "applyEuropeBody": "Abre la publicación oficial Ecuador 2026 en Hechos29.world y sigue el flujo «Aplicar aquí» para tu región.",
+    "applyHereCta": "Aplicar aquí",
+    "school": {
+      "kicker": "Escuela",
+      "lead": "Si tu corazón late por las misiones y anhelas ver vidas transformadas, este es tu momento. Únete a la Escuela Hechos29 2026 y sé parte de lo que Dios está haciendo.",
+      "pAndes": "Nuevas aventuras en las montañas de los Andes y el Amazonas.",
+      "pHost": "Ecuador ha acogido la Escuela Hechos29 13 veces desde su inicio en 2004, lo que la convierte en el destino más emblemático del programa — ¡y de verdad amamos Ecuador! Desde principios de los años 70, Equmenia se asocia con la Iglesia del Pacto Evangélico del Ecuador (IPEE), una iglesia con congregaciones en todo el país. Juntos compartimos pasión por las misiones y el deseo de fortalecer comunidades locales. Durante las semanas de alcance visitaremos varias de estas congregaciones, sirviendo y aprendiendo junto al equipo de la escuela.",
+      "hSchool": "La escuela",
+      "pSchool": "La escuela comenzará a finales de agosto de 2026. Los participantes y líderes nórdicos empezarán el 17 de agosto con unos días introductorios en Karlskoga Folkhögskola. Después viajaremos juntos a Quito y desde allí a la base de la escuela. La ubicación final de la base aún está por confirmar, pero consideramos varios lugares increíbles en Ecuador que ofrecerán el marco perfecto para esta experiencia.",
+      "hWorld": "Una escuela para el mundo",
+      "pWorld": "Hechos29 es una escuela de discipulado internacional y multicultural. Invitamos a jóvenes de distintos países a compartir este camino juntos. Vivirás en comunidad con unos 40 participantes, normalmente entre 5 y 7 nacionalidades. También recibiremos docentes de varios países, enriqueciendo aún más la formación.",
+      "hDays": "Los días en la base incluirán:",
+      "daysList": [
+        "Vida en comunidad y en equipo",
+        "Enseñanza bíblica",
+        "Talleres prácticos",
+        "Devocionales",
+        "Tiempos de oración",
+        "Actividades y recreación"
+      ],
+      "pWeekends": "Los fines de semana formarás parte de un equipo que viaja a servir en iglesias locales junto a la Iglesia del Pacto Evangélico del Ecuador (IPEE). Además, una vez al mes tendremos una semana completa de misión intensiva en la Sierra ecuatoriana y la región del Amazonas, donde serviremos, aprenderemos y viviremos el día a día junto a familias ecuatorianas.",
+      "hFacts": "Datos breves",
+      "factDatesLabel": "Fechas",
+      "factDates": "29 de agosto – 22 de noviembre de 2026",
+      "factLocationLabel": "Lugar",
+      "factLocation": "Ecuador (Sierra y región del Amazonas)",
+      "factCostLabel": "Coste",
+      "factCost": "2100,00 USD",
+      "factLangLabel": "Idiomas",
+      "factLang": "Inglés y español (interpretación completa; no se requiere dominio del español).",
+      "factDeadlineLabel": "Fecha límite de solicitud",
+      "factDeadline": "31 de julio de 2026",
+      "hMonths": "Estos meses serán un tiempo para:",
+      "monthsList": [
+        "Profundizar tu relación con Dios",
+        "Prepararte bíblica y prácticamente para las misiones",
+        "Servir en el campo y en la obra de Dios",
+        "Impactar vidas con el mensaje de Jesús"
+      ],
+      "closing": "No es solo una escuela… es una experiencia que puede dar forma a tu propósito para siempre.",
+      "hContact": "Contacto",
+      "pContact": "Llamada — texto — WhatsApp · Correo: info@Hechos29.world · Documentos: solicitud y referencia pastoral.",
+      "applyTitle": "Aplicar",
+      "applyBody": "Usa esta página y el coordinador de tu país. Consultas generales: info@Hechos29.world."
+    }
+  },
+  "Posts": {
+    "ecuadorCountry": {
+      "title": "Ecuador",
+      "excerpt": "De los Andes al Amazonas: el país donde la alianza de Hechos29 con IPEE echó raíces.",
+      "coverAlt": "Ecuador — paisajes diversos",
+      "kicker": "País",
+      "lead": "Ecuador se sitúa en el ecuador del noroeste de Sudamérica. Aunque es pequeño en el mapa, reúne sierra andina, selva amazónica y llanura costera. Quito, una de las capitales más altas del mundo, refleja herencia indígena, historia colonial y una población diversa en crecimiento.",
+      "hPartnership": "Iglesias y comunidades",
+      "pPartnership": "La Iglesia del Pacto Evangélico del Ecuador (IPEE) sirve en congregaciones en todo el país. Equmenia (Suecia) camina junto a IPEE desde principios de los años 70 — una amistad misionera que continúa en iglesias locales y en el alcance.",
+      "hLand": "Paisajes",
+      "pLand": "Viajar en Ecuador puede significar páramo y volcanes en la Sierra, bosques y ríos en la Amazonía y llanuras costeras más cálidas — a veces en el mismo día. Esa variedad moldea la vida cotidiana, las lenguas y los ritmos comunitarios.",
+      "hPeople": "Personas e idiomas",
+      "pPeople": "El español es ampliamente usado en la vida pública; muchas regiones también valoran lenguas y tradiciones indígenas. La hospitalidad, la familia extendida y la vida eclesial son centrales para muchos ecuatorianos — un contexto que moldea cómo los equipos internacionales escuchan, aprenden y sirven junto a creyentes locales.",
+      "closing": "Vengas por una temporada larga o una visita breve, Ecuador te invita a caminar con humildad junto a quienes siguen a Jesús en su propio barrio.",
+      "schoolLink": "Escuela Ecuador 2026 — detalles y aplicación"
+    },
+    "backBlog": "← Volver al blog",
+    "home": "Inicio"
+  },
+  "site": {
+    "name": "Hechos29",
+    "tagline": "La historia continúa…",
+    "description": "Hechos29 aspira a ser un movimiento misionero multicultural internacional de jóvenes, cuyas vidas han sido disciplinadas y transformadas para un liderazgo misionero en la Iglesia y en el mundo."
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "Metadata": {
+    "defaultTitle": "Acts29 | The Story Continues…",
+    "defaultDescription": "Acts29 aspires to be an international multicultural mission movement of young people, whose lives have been disciplined and transformed for missional leadership in the Church and in the world."
+  },
+  "Nav": {
+    "brandTitle": "Acts 29",
+    "home": "Home",
+    "schools": "Schools",
+    "ecuador": "Ecuador",
+    "info": "Info",
+    "blog": "Blog",
+    "contact": "Contact",
+    "applyEcuador": "Apply · Ecuador 2026",
+    "langEn": "English",
+    "langEs": "Español",
+    "langSv": "Svenska",
+    "languageNav": "Language"
+  },
+  "Footer": {
+    "explore": "Explore",
+    "nextSchool": "Next school",
+    "ecuadorHub": "Ecuador hub",
+    "ecuador2026": "Ecuador 2026 details",
+    "ecuadorCountry": "About Ecuador (country)",
+    "allSchools": "All schools",
+    "connect": "Connect",
+    "copyright": "© {year} Acts29",
+    "coordinatorsLine": "Coordinators by country · see",
+    "infoLink": "Info"
+  },
+  "funnel": {
+    "primaryCta": "Apply for Ecuador 2026",
+    "secondaryCta": "Schools",
+    "pathTitle": "From first conversation to sending",
+    "pathBody": "A clear path: discover the vision, connect with your country coordinator, prepare with your church, and join the next school.",
+    "pathCta": "See how to join",
+    "steps": {
+      "s1": "Explore vision & schools",
+      "s2": "Talk to a coordinator",
+      "s3": "Apply & prepare",
+      "s4": "Attend & continue the story"
+    },
+    "coordinators": "Contact & coordinators"
+  },
+  "Home": {
+    "eyebrow": "International · Multicultural · Mission",
+    "heroLine1": "Discipled for mission.",
+    "heroLine2": "Sent for the world.",
+    "heroBody": "Acts29 aspires to be an international multicultural mission movement of young people, whose lives have been discipled and transformed for missional leadership in the Church and in the world.",
+    "photoAlt": "Acts29 — community at a school",
+    "quoteCard": "“The story continues…”",
+    "quoteSub": "Schools across continents · One shared vision",
+    "partnersEyebrow": "Rooted in partnership",
+    "partners": {
+      "p1": "Mission Covenant Church of Sweden",
+      "p2": "Iglesia del Pacto Evangélico del Ecuador (IPEE)"
+    },
+    "visionTitle": "Our vision",
+    "visionQuote": "Acts29 aspires to be an international multicultural mission movement of young people, whose lives have been disciplined and transformed for missional leadership in the Church and in the world.",
+    "pillars": {
+      "d1": {
+        "title": "Discipleship School",
+        "body": "We participate in the process of shaping lives in community as we follow Jesus. We do not merely impart knowledge."
+      },
+      "d2": {
+        "title": "Leadership School",
+        "body": "We entrust young people with delegated leadership. We mentor and empower them to become servant leaders."
+      },
+      "d3": {
+        "title": "Mission School",
+        "body": "We encourage young people to participate in God’s mission of reconciling all things to himself."
+      }
+    },
+    "stats": {
+      "s1": { "value": "20", "label": "Years of story" },
+      "s2": { "value": "13", "label": "Schools held in Ecuador since 2004" },
+      "s3": { "value": "15+", "label": "Nations that have hosted schools" }
+    },
+    "celebrateEyebrow": "We celebrate",
+    "celebrateTitle": "20 years",
+    "celebrateSubtitle": "of story",
+    "celebrateBody": "We celebrate God’s faithfulness through schools that transform lives. Each year, we run different schools designed to impact every student and the nations they reach.",
+    "celebrateAlt": "Acts29 celebration — community",
+    "movementTitle": "Acts29 — how the movement began",
+    "movementBody": "The movement began as a partnership between the Iglesia del Pacto Evangélico del Ecuador and the Mission Covenant Church of Sweden. The first school was held in Montecristi, Ecuador in 2004. Since then Chile, Democratic Republic of Congo, Republic of Congo, Finland, India, Mexico, Russia, Spain, Sweden, China and Thailand have held schools while additional nations have sent participants.",
+    "ecuadorEyebrow": "Ecuador 2026",
+    "ecuadorTitle": "New adventures in the Andes and the Amazon",
+    "ecuadorBody": "If your heart beats for missions and you long to see lives transformed, this is your moment. Join Acts29 School 2026 and be part of what God is doing—with Equmenia and IPEE partners and participants from many nations.",
+    "ecuadorHub": "Ecuador hub",
+    "ecuadorArticle": "About Ecuador (country)",
+    "communityAlt": "Acts29 in Ecuador — community",
+    "closingTitle": "Where you can reach us",
+    "closingBody": "Contacts of Acts29 coordinators in each country — write info@acts29.world or reach your local coordinator through Info.",
+    "closingBlog": "Blog & updates",
+    "stepLabel": "Step {n}"
+  },
+  "Schools": {
+    "metaTitle": "Schools | Acts29",
+    "metaDescription": "Acts29 schools around the world—short-term intensives that form disciples and leaders in community.",
+    "heroTitle": "Schools",
+    "heroSubtitle": "Acts29 News — highlights from recent posts on the movement’s schools and gatherings.",
+    "heroAlt": "Acts29 schools — group",
+    "kicker": "Acts29",
+    "intro": "Each school is hosted with local partners. Not every nation runs a school every year—your coordinator helps you find the next step, whether near home or abroad.",
+    "regions": {
+      "latam": { "name": "Latin America", "note": "Strong history of partnership schools—including Ecuador, Mexico, and Chile—and regional participants." },
+      "europe": { "name": "Europe & Nordic", "note": "Including Sweden, Finland, and Spain; Nordic teams often help prepare participants for schools abroad." },
+      "other": { "name": "Other regions", "note": "Schools have also been held in India, Thailand, DR Congo, Republic of Congo, Russia, China, and more—see coordinators for current openings." }
+    },
+    "places": {
+      "latam": ["Ecuador", "Mexico", "Chile"],
+      "europe": ["Sweden", "Finland", "Spain"],
+      "other": ["India", "Thailand", "DR Congo", "Republic of Congo", "Russia", "China"]
+    },
+    "newsTitle": "Acts29 News",
+    "news1Title": "The land under the sun — Ecuador",
+    "news1Body": "Acts29 returns to the country where it all began 22 years ago: Andes and Amazon; 13 schools in Ecuador since 2004; partnership Equmenia + IPEE since the early 1970s; congregations throughout the country.",
+    "news2Title": "Kongo-Brazzaville 2026",
+    "news2Body": "Back to Congo—schools were held in 2008, 2010 & 2018; Swedish missionary history in the region since 1909.",
+    "ctaTitle": "Next opening — Ecuador 2026",
+    "ctaBody": "Dates, cost, languages, and application deadline are in the Ecuador 2026 article. Start there, then stay in touch with your coordinator.",
+    "ctaHub": "Ecuador 2026 — school hub",
+    "ctaCountry": "About Ecuador (country)"
+  },
+  "Info": {
+    "metaTitle": "Contacts | Acts29",
+    "metaDescription": "Drop us a line — Acts29 coordinators in each country, email info@acts29.world, and answers to common questions.",
+    "heroTitle": "Contact",
+    "heroSubtitle": "Where you can reach us — contacts of Acts29 coordinators in each country.",
+    "heroAlt": "Acts29 — contact",
+    "kicker": "Stay in touch",
+    "formTitle": "Drop us a line",
+    "formNote": "We will get back to you as soon as possible. This form is static in this preview—use info@acts29.world or the coordinators below for real inquiries.",
+    "labels": { "name": "Name *", "email": "Email *", "country": "Country", "message": "Message" },
+    "submit": "Send",
+    "asideTitle": "Sweden (Equmenia)",
+    "asideBody": "Contact in Sweden: Carl-Johan Sävinger — carl-johan.savinger@equmenia.se. Want to call us? Call or write us by WhatsApp; see the table for your country.",
+    "asideEmailLabel": "General email",
+    "asideEmail": "info@acts29.world",
+    "asideSocialLabel": "Social",
+    "asideSocialLink": "Links in the site footer",
+    "tableSectionTitle": "Coordinators by country",
+    "tableSectionLead": "Contacts of Acts29 coordinators in each country (as listed on acts29.world).",
+    "tableCaption": "Acts29 coordinators",
+    "colCountry": "Country",
+    "colContact": "Contact",
+    "colPhone": "Phone",
+    "colEmail": "E-mail",
+    "faqTitle": "Answers to common questions",
+    "faq1": { "q": "I live in Sweden or Finland—how do I join?", "a": "Write Carl-Johan Sävinger (Sweden, Equmenia) or the Finnish coordinators in the table. They share upcoming schools and preparation pathways." },
+    "faq2": { "q": "I’m in the Americas—what’s the path?", "a": "Use the coordinator for your country. Ecuador 2026 is a key upcoming school; your coordinator helps with language, travel, and church connection." },
+    "faq3": { "q": "Is there a single curriculum worldwide?", "a": "The same vision and three schools—discipleship, leadership, mission—while each school adapts to local partners and participants." }
+  },
+  "Blog": {
+    "metaTitle": "Blog | Acts29",
+    "metaDescription": "Stories, updates, and articles from the Acts29 movement (Hechos29).",
+    "eyebrow": "Blog",
+    "title": "Stories & updates",
+    "intro": "Recent titles from the acts29.world blog feed include Ecuador 2026, Kongo-Brazzaville 2026, South Africa 2026, Colombia 2025, and Eswatini 2025.",
+    "read": "Read article →"
+  },
+  "EcuadorPage": {
+    "metaTitle": "Ecuador 2026 | Acts29",
+    "metaDescription": "Acts29 School 2026 in Ecuador—dates, program, partnership with IPEE, and how to apply.",
+    "heroTitle": "Ecuador 2026",
+    "heroAlt": "Ecuador — Andes",
+    "moreAboutEcuador": "More about Ecuador",
+    "communityImageAlt": "Acts29 community in Ecuador",
+    "bandTitle": "Ecuador 2026",
+    "bandBody": "August–November 2026 · English & Spanish · $2,100 USD · Apply by July 31, 2026.",
+    "bandCta": "Contact coordinators",
+    "beforeTitle": "Before you apply",
+    "checks": [
+      "Heart for missions and willingness to learn in multicultural community.",
+      "Active connection with a local church (or a clear pathway with a coordinator).",
+      "Passport and travel readiness if you join from another country.",
+      "Application documents: application form and pastoral reference (see coordinator)."
+    ],
+    "contactCta": "Contact coordinators",
+    "schoolsCta": "All schools",
+    "applyLatamTitle": "Applicants from Latin America",
+    "applyLatamBody": "Download the official Spanish application form and pastoral reference (Word) from acts29.world.",
+    "downloadApplicationForm": "Download application form (.docx)",
+    "downloadPastoralReference": "Download pastoral reference (.docx)",
+    "applyEuropeTitle": "Applicants from Europe or outside Latin America",
+    "applyEuropeBody": "Open the official Ecuador 2026 post on acts29.world and use the Apply here flow for your region.",
+    "applyHereCta": "Apply here",
+    "school": {
+      "kicker": "School",
+      "lead": "If your heart beats for missions and you long to see lives transformed, this is your moment. Join Acts29 School 2026 and be part of what God is doing.",
+      "pAndes": "New adventures in the Andes Mountains and the Amazon.",
+      "pHost": "Ecuador has hosted Hechos29 School 13 times since its founding in 2004, making it the most iconic destination of the program and we truly love Ecuador! Since the early 1970s, Equmenia has partnered with the Iglesia del Pacto Evangélico del Ecuador (IPEE), a church with congregations throughout the country. Together, we share a passion for missions and a desire to strengthen local communities. During the outreach weeks, we will visit several of these congregations, serving and learning alongside the school team.",
+      "hSchool": "The School",
+      "pSchool": "The school will start at the end of August 2026. The Nordic participants and leaders will start on August 17th with a few introductory days at Karlskoga Folkhögskola. After that, we will travel together to Quito and from there to the school’s base. The final location of the base is still to be confirmed, but we are considering several incredible places in Ecuador that will provide the perfect setting for this experience.",
+      "hWorld": "A School for the World",
+      "pWorld": "Acts29 is an international and multicultural discipleship school. We invite young people from different countries to share this journey together. You will live in community with approximately 40 participants, typically representing between 5 and 7 nationalities. We will also receive teachers from various countries, further enriching the training experience.",
+      "hDays": "Days at the Base will be Filled With:",
+      "daysList": [
+        "Community and team life",
+        "Biblical teaching",
+        "Practical workshops",
+        "Devotionals",
+        "Times of prayer",
+        "Activities and recreation"
+      ],
+      "pWeekends": "On weekends, you will be part of a team traveling to serve in local churches in partnership with the Iglesia del Pacto Evangélico del Ecuador (IPEE). In addition, once a month we will have a full week of intensive missions in the Ecuadorian Highlands and the Amazon region, where we will serve, learn, and experience everyday life alongside Ecuadorian families.",
+      "hFacts": "Short Facts",
+      "factDatesLabel": "Dates",
+      "factDates": "August 29 – November 22, 2026",
+      "factLocationLabel": "Location",
+      "factLocation": "Ecuador (Highlands and Amazon region)",
+      "factCostLabel": "Cost",
+      "factCost": "$2100.00 USD",
+      "factLangLabel": "Languages",
+      "factLang": "English and Spanish (full interpretation provided; Spanish proficiency is not required).",
+      "factDeadlineLabel": "Application Deadline",
+      "factDeadline": "July 31, 2026",
+      "hMonths": "These Months Will Be a Time To:",
+      "monthsList": [
+        "Deepen your relationship with God",
+        "Prepare biblically and practically for missions",
+        "Serve in the field and in God’s work",
+        "Impact lives with the message of Jesus"
+      ],
+      "closing": "This is not just a school… it is an experience that can shape your purpose forever.",
+      "hContact": "Contact",
+      "pContact": "Call — Text — WhatsApp · Email: info@acts29.world · Documents: application and pastoral reference.",
+      "applyTitle": "Apply",
+      "applyBody": "Use this page and your country coordinator. General inquiries: info@acts29.world."
+    }
+  },
+  "Posts": {
+    "ecuadorCountry": {
+      "title": "Ecuador",
+      "excerpt": "From the Andes to the Amazon — the land where Acts29’s partnership with IPEE took root.",
+      "coverAlt": "Ecuador — diverse landscapes",
+      "kicker": "Country",
+      "lead": "Ecuador sits on the equator in northwestern South America. Though small on the map, it gathers Andean highlands, humid Amazon rainforest, and Pacific lowlands in a single country. Quito, one of the highest capital cities in the world, reflects indigenous heritage, colonial history, and a diverse, growing population.",
+      "hPartnership": "Churches and communities",
+      "pPartnership": "The Iglesia del Pacto Evangélico del Ecuador (IPEE) serves in congregations across the nation. Equmenia (Sweden) has walked alongside IPEE since the early 1970s—a friendship of shared mission that continues in local churches and outreach today.",
+      "hLand": "Landscapes",
+      "pLand": "Travel in Ecuador can mean cool páramo and volcanic peaks in the Sierra, dense forests and rivers in the Amazon basin, and warmer coastal plains—sometimes within a day’s journey. That variety shapes daily life, languages, and rhythms of community.",
+      "hPeople": "People and languages",
+      "pPeople": "Spanish is widely used in public life; many regions also cherish indigenous languages and traditions. Hospitality, extended families, and church life are deeply important for many Ecuadorians—context that shapes how international teams listen, learn, and serve alongside local believers.",
+      "closing": "Whether you come for a longer season or a shorter visit, Ecuador invites you to walk humbly with those who follow Jesus in their own neighbourhoods.",
+      "schoolLink": "Ecuador 2026 school — details & apply"
+    },
+    "backBlog": "← Back to blog",
+    "home": "Home"
+  },
+  "site": {
+    "name": "Acts29",
+    "tagline": "The story continues…",
+    "description": "Acts29 aspires to be an international multicultural mission movement of young people, whose lives have been disciplined and transformed for missional leadership in the Church and in the world."
+  }
+}

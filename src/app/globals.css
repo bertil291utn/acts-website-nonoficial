@@ -1,26 +1,31 @@
 @import "tailwindcss";
 
+/* Edmun-like foundation + ESCA-inspired contrast (ink, stat bands) + warm accent (not brand-red) */
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0f172a;
+  --acts-navy: #0c1b33;
+  --acts-ink: #050a14;
+  --acts-muted: #64748b;
+  --acts-surface: #f8fafc;
+  --acts-accent: #b45309;
+  --acts-accent-soft: rgba(180, 83, 9, 0.12);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-acts-navy: var(--acts-navy);
+  --color-acts-ink: var(--acts-ink);
+  --color-acts-muted: var(--acts-muted);
+  --color-acts-surface: var(--acts-surface);
+  --color-acts-accent: var(--acts-accent);
+  --font-sans: var(--font-dm-sans);
+  --font-serif: var(--font-playfair);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
 }

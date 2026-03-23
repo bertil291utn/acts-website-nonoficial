@@ -1,0 +1,257 @@
+{
+  "Metadata": {
+    "defaultTitle": "Apg29 | Sagan fortsätter…",
+    "defaultDescription": "Apg29 vill vara en internationell, mångkulturell missionsrörelse av unga människor vars liv formats och förvandlats till uppdragsledarskap i församlingen och i världen."
+  },
+  "Nav": {
+    "brandTitle": "Apg 29",
+    "home": "Hem",
+    "schools": "Skolor",
+    "ecuador": "Ecuador",
+    "info": "Info",
+    "blog": "Blogg",
+    "contact": "Kontakt",
+    "applyEcuador": "Ansök · Ecuador 2026",
+    "langEn": "English",
+    "langEs": "Español",
+    "langSv": "Svenska",
+    "languageNav": "Språk"
+  },
+  "Footer": {
+    "explore": "Utforska",
+    "nextSchool": "Nästa skola",
+    "ecuadorHub": "Ecuador-hubben",
+    "ecuador2026": "Ecuador 2026 – detaljer",
+    "ecuadorCountry": "Om Ecuador (landet)",
+    "allSchools": "Alla skolor",
+    "connect": "Följ oss",
+    "copyright": "© {year} Apg29",
+    "coordinatorsLine": "Samordnare per land · se",
+    "infoLink": "Info"
+  },
+  "funnel": {
+    "primaryCta": "Ansök till Ecuador 2026",
+    "secondaryCta": "Skolor",
+    "pathTitle": "Från första samtal till utsändning",
+    "pathBody": "En tydlig väg: upptäck visionen, kontakta samordnaren i ditt land, förbered dig med din församling och gå med i nästa skola.",
+    "pathCta": "Se hur du kan vara med",
+    "steps": {
+      "s1": "Utforska vision & skolor",
+      "s2": "Prata med en samordnare",
+      "s3": "Ansök & förbered",
+      "s4": "Delta & låt sagan fortsätta"
+    },
+    "coordinators": "Kontakt & samordnare"
+  },
+  "Home": {
+    "eyebrow": "Internationellt · Mångkulturellt · Uppdrag",
+    "heroLine1": "Lärjungaskap för uppdraget.",
+    "heroLine2": "Utsänd till världen.",
+    "heroBody": "Apg29 vill vara en internationell, mångkulturell missionsrörelse av unga människor vars liv formats som lärjungar och förvandlats till uppdragsledarskap i församlingen och i världen.",
+    "photoAlt": "Apg29 — gemenskap på en skola",
+    "quoteCard": "“Sagan fortsätter…”",
+    "quoteSub": "Skolor över kontinenter · en gemensam vision",
+    "partnersEyebrow": "Förankrade i partnerskap",
+    "partners": {
+      "p1": "Mission Covenant Church of Sweden",
+      "p2": "Iglesia del Pacto Evangélico del Ecuador (IPEE)"
+    },
+    "visionTitle": "Vår vision",
+    "visionQuote": "Apg29 vill vara en internationell, mångkulturell missionsrörelse av unga människor vars liv formats och förvandlats till uppdragsledarskap i församlingen och i världen.",
+    "pillars": {
+      "d1": {
+        "title": "Lärjungaskola",
+        "body": "Vi deltar i att forma liv i gemenskap när vi följer Jesus. Vi förmedlar inte bara kunskap."
+      },
+      "d2": {
+        "title": "Ledarskapsskola",
+        "body": "Vi anförtror unga människor delegerat ledarskap. Vi mentor och stärker dem att bli tjänande ledare."
+      },
+      "d3": {
+        "title": "Missionsskola",
+        "body": "Vi uppmuntrar unga att delta i Guds mission att förena allt med honom."
+      }
+    },
+    "stats": {
+      "s1": { "value": "20", "label": "År av berättelse" },
+      "s2": { "value": "13", "label": "Skolor i Ecuador sedan 2004" },
+      "s3": { "value": "15+", "label": "Länder som har haft skolor" }
+    },
+    "celebrateEyebrow": "Vi firar",
+    "celebrateTitle": "20 år",
+    "celebrateSubtitle": "av berättelse",
+    "celebrateBody": "Vi firar Guds trofasthet genom skolor som förvandlar liv. Varje år genomför vi olika skolor som formar varje elev och de nationer de når.",
+    "celebrateAlt": "Apg29 firande — gemenskap",
+    "movementTitle": "Apg29 — hur rörelsen började",
+    "movementBody": "Rörelsen började som ett partnerskap mellan Iglesia del Pacto Evangélico del Ecuador och Mission Covenant Church of Sweden. Den första skolan hölls i Montecristi, Ecuador 2004. Sedan dess har Chile, Kongo-Kinshasa, Kongo-Brazzaville, Finland, Indien, Mexiko, Ryssland, Spanien, Sverige, Kina och Thailand haft skolor medan fler nationer har skickat deltagare.",
+    "ecuadorEyebrow": "Ecuador 2026",
+    "ecuadorTitle": "Nya äventyr i Anderna och Amazonas",
+    "ecuadorBody": "Om ditt hjärta slår för mission och du längtar se liv förvandlade – det här är din stund. Gå med i Apg29-skola 2026 och var med i det Gud gör – tillsammans med Equmenia, IPEE och deltagare från många nationer.",
+    "ecuadorHub": "Ecuador-hubben",
+    "ecuadorArticle": "Om Ecuador (landet)",
+    "communityAlt": "Apg29 i Ecuador — gemenskap",
+    "closingTitle": "Här når du oss",
+    "closingBody": "Apg29-samordnare i varje land – skriv info@Apg29.world eller kontakta din lokala samordnare via Info.",
+    "closingBlog": "Blogg & uppdateringar",
+    "stepLabel": "Steg {n}"
+  },
+  "Schools": {
+    "metaTitle": "Skolor | Apg29",
+    "metaDescription": "Apg29-skolor världen över – intensivkurser som formar lärjungar och ledare i gemenskap.",
+    "heroTitle": "Skolor",
+    "heroSubtitle": "Apg29 News – utdrag från senaste inlägg om rörelsens skolor och sammankomster.",
+    "heroAlt": "Apg29-skolor – grupp",
+    "kicker": "Apg29",
+    "intro": "Varje skola genomförs med lokala partners. Inte alla länder har skola varje år – din samordnare hjälper dig till nästa steg, hemma eller utomlands.",
+    "regions": {
+      "latam": { "name": "Latinamerika", "note": "Lång stark historia av partnerskapsskolor – bland annat Ecuador, Mexiko och Chile – och regionala deltagare." },
+      "europe": { "name": "Europa & Norden", "note": "Bland annat Sverige, Finland och Spanien; nordiska team förbereder ofta deltagare för skolor utomlands." },
+      "other": { "name": "Övriga regioner", "note": "Skolor har också hållits i Indien, Thailand, Kongo-Kinshasa, Kongo-Brazzaville, Ryssland, Kina med mera – se samordnare för aktuella möjligheter." }
+    },
+    "places": {
+      "latam": ["Ecuador", "Mexico", "Chile"],
+      "europe": ["Sweden", "Finland", "Spain"],
+      "other": ["India", "Thailand", "DR Congo", "Republic of Congo", "Russia", "China"]
+    },
+    "newsTitle": "Apg29 News",
+    "news1Title": "Landet under solen — Ecuador",
+    "news1Body": "Apg29 återvänder till landet där allt började för 22 år sedan: Anderna och Amazonas; 13 skolor i Ecuador sedan 2004; partnerskap Equmenia + IPEE sedan början av 1970-talet; församlingar i hela landet.",
+    "news2Title": "Kongo-Brazzaville 2026",
+    "news2Body": "Tillbaka till Kongo – skolor hölls 2008, 2010 och 2018; svensk missionhistoria i regionen sedan 1909.",
+    "ctaTitle": "Nästa öppning — Ecuador 2026",
+    "ctaBody": "Datum, kostnad, språk och sista ansökningsdag finns i artikeln om Ecuador 2026. Börja där och håll kontakten med din samordnare.",
+    "ctaHub": "Ecuador 2026 — skol-hub",
+    "ctaCountry": "Om Ecuador (landet)"
+  },
+  "Info": {
+    "metaTitle": "Kontakter | Apg29",
+    "metaDescription": "Hör av dig – Apg29-samordnare i varje land, e-post info@Apg29.world och svar på vanliga frågor.",
+    "heroTitle": "Kontakt",
+    "heroSubtitle": "Här når du oss – kontakter till Apg29-samordnare i varje land.",
+    "heroAlt": "Apg29 – kontakt",
+    "kicker": "Håll kontakten",
+    "formTitle": "Skriv en rad",
+    "formNote": "Vi återkommer så snart vi kan. Detta formulär är statiskt i denna förhandsvisning – använd info@Apg29.world eller samordnarna nedan för riktiga frågor.",
+    "labels": { "name": "Namn *", "email": "E-post *", "country": "Land", "message": "Meddelande" },
+    "submit": "Skicka",
+    "asideTitle": "Sverige (Equmenia)",
+    "asideBody": "Kontakt i Sverige: Carl-Johan Sävinger — carl-johan.savinger@equmenia.se. Vill du ringa? Ring eller skriv via WhatsApp; se tabellen för ditt land.",
+    "asideEmailLabel": "Allmän e-post",
+    "asideEmail": "info@Apg29.world",
+    "asideSocialLabel": "Sociala medier",
+    "asideSocialLink": "Länkar i sidfoten",
+    "tableSectionTitle": "Samordnare per land",
+    "tableSectionLead": "Kontakter till Apg29-samordnare i varje land (enligt Apg29.world).",
+    "tableCaption": "Apg29-samordnare",
+    "colCountry": "Land",
+    "colContact": "Kontakt",
+    "colPhone": "Telefon",
+    "colEmail": "E-post",
+    "faqTitle": "Svar på vanliga frågor",
+    "faq1": { "q": "Jag bor i Sverige eller Finland – hur går jag med?", "a": "Skriv till Carl-Johan Sävinger (Sverige, Equmenia) eller de finska samordnarna i tabellen. De delar kommande skolor och förberedande vägar." },
+    "faq2": { "q": "Jag är i Amerika – vad är vägen?", "a": "Använd samordnaren för ditt land. Ecuador 2026 är en viktig kommande skola; din samordnare hjälper med språk, resa och församling." },
+    "faq3": { "q": "Finns ett enda curriculum i hela världen?", "a": "Samma vision och tre skolor – lärjungaskap, ledarskap, mission – medan varje skola anpassas till lokala partners och deltagare." }
+  },
+  "Blog": {
+    "metaTitle": "Blogg | Apg29",
+    "metaDescription": "Berättelser, uppdateringar och artiklar från Apg29-rörelsen (Hechos29).",
+    "eyebrow": "Blogg",
+    "title": "Berättelser & uppdateringar",
+    "intro": "Bland senaste rubriker från Apg29.world finns Ecuador 2026, Kongo-Brazzaville 2026, Sydafrika 2026, Colombia 2025 och Eswatini 2025.",
+    "read": "Läs artikel →"
+  },
+  "EcuadorPage": {
+    "metaTitle": "Ecuador 2026 | Apg29",
+    "metaDescription": "Apg29-skola 2026 i Ecuador — datum, program, partnerskap med IPEE och hur du ansöker.",
+    "heroTitle": "Ecuador 2026",
+    "heroAlt": "Ecuador – Anderna",
+    "moreAboutEcuador": "Mer om Ecuador",
+    "communityImageAlt": "Apg29-gemenskap i Ecuador",
+    "bandTitle": "Ecuador 2026",
+    "bandBody": "Augusti–november 2026 · engelska & spanska · 2 100 USD · Sista ansökningsdag 31 juli 2026.",
+    "bandCta": "Kontakta samordnare",
+    "beforeTitle": "Innan du ansöker",
+    "checks": [
+      "Hjärta för mission och vilja att lära i mångkulturell gemenskap.",
+      "Aktiv koppling till en lokal församling (eller tydlig väg med samordnare).",
+      "Pass och reseberedskap om du deltar från annat land.",
+      "Ansökningshandlingar: ansökningsformulär och pastorsexempel (se samordnare)."
+    ],
+    "contactCta": "Kontakta samordnare",
+    "schoolsCta": "Alla skolor",
+    "applyLatamTitle": "Sökande från Latinamerika",
+    "applyLatamBody": "Ladda ner den officiella spanska ansökningsblanketten och pastoralreferensen (Word) från Apg29.world.",
+    "downloadApplicationForm": "Ladda ner ansökningsformulär (.docx)",
+    "downloadPastoralReference": "Ladda ner pastoralreferens (.docx)",
+    "applyEuropeTitle": "Sökande från Europa eller utanför Latinamerika",
+    "applyEuropeBody": "Öppna det officiella inlägget Ecuador 2026 på Apg29.world och följ flödet «Apply here» för din region.",
+    "applyHereCta": "Ansök här",
+    "school": {
+      "kicker": "Skola",
+      "lead": "Om ditt hjärta slår för mission och du längtar se liv förvandlade – det här är din stund. Gå med i Apg29-skola 2026 och var med i det Gud gör.",
+      "pAndes": "Nya äventyr i Anderna och Amazonas.",
+      "pHost": "Ecuador har varit värd för Hechos29-skolan 13 gånger sedan starten 2004 och är programmets mest ikoniska destination – och vi älskar verkligen Ecuador! Sedan början av 1970-talet har Equmenia partnerskap med Iglesia del Pacto Evangélico del Ecuador (IPEE), en kyrka med församlingar i hela landet. Tillsammans delar vi passion för mission och vilja att stärka lokala gemenskaper. Under utåtriktade veckor besöker vi flera av dessa församlingar och tjänar och lär tillsammans med skolteamet.",
+      "hSchool": "Skolan",
+      "pSchool": "Skolan börjar i slutet av augusti 2026. Nordiska deltagare och ledare startar 17 augusti med några introduktionsdagar på Karlskoga folkhögskola. Därefter reser vi tillsammans till Quito och vidare till skolans bas. Slutlig plats för basen är ännu inte bekräftad, men vi överväger flera fantastiska platser i Ecuador som ger rätt ram för upplevelsen.",
+      "hWorld": "En skola för världen",
+      "pWorld": "Apg29 är en internationell och mångkulturell lärjungaskola. Vi bjuder in unga från olika länder att dela resan tillsammans. Ni lever i gemenskap med cirka 40 deltagare, oftast 5–7 nationaliteter. Vi tar också emot lärare från olika länder, vilket berikar utbildningen ytterligare.",
+      "hDays": "Dagarna på basen fylls med:",
+      "daysList": [
+        "Gemenskap och teamliv",
+        "Bibelundervisning",
+        "Praktiska workshops",
+        "Andakter",
+        "Bönetider",
+        "Aktiviteter och rekreation"
+      ],
+      "pWeekends": "På helgerna ingår du i ett team som reser för att tjäna i lokala församlingar tillsammans med Iglesia del Pacto Evangélico del Ecuador (IPEE). Dessutom har vi en gång i månaden en hel vecka intensiv mission i ecuadorianska högländerna och Amazonas, där vi tjänar, lär känna vardagen och lever nära ecuadorianska familjer.",
+      "hFacts": "Kort fakta",
+      "factDatesLabel": "Datum",
+      "factDates": "29 augusti – 22 november 2026",
+      "factLocationLabel": "Plats",
+      "factLocation": "Ecuador (högländerna och Amazonas)",
+      "factCostLabel": "Kostnad",
+      "factCost": "2 100 USD",
+      "factLangLabel": "Språk",
+      "factLang": "Engelska och spanska (tolkning erbjuds; spanskkunskap krävs inte).",
+      "factDeadlineLabel": "Sista ansökningsdag",
+      "factDeadline": "31 juli 2026",
+      "hMonths": "Månaderna blir en tid för att:",
+      "monthsList": [
+        "Fördjupa relationen med Gud",
+        "Förbereda dig bibliskt och praktiskt för mission",
+        "Tjäna på fältet och i Guds verk",
+        "Påverka liv med budskapet om Jesus"
+      ],
+      "closing": "Det här är inte bara en skola … det är en upplevelse som kan forma ditt kall för alltid.",
+      "hContact": "Kontakt",
+      "pContact": "Ring — SMS — WhatsApp · E-post: info@Apg29.world · Handlingar: ansökan och pastorsexempel.",
+      "applyTitle": "Ansök",
+      "applyBody": "Använd den här sidan och din samordnare i landet. Allmänna frågor: info@Apg29.world."
+    }
+  },
+  "Posts": {
+    "ecuadorCountry": {
+      "title": "Ecuador",
+      "excerpt": "Från Anderna till Amazonas — landet där Apg29:s partnerskap med IPEE tog rot.",
+      "coverAlt": "Ecuador — mångsidiga landskap",
+      "kicker": "Land",
+      "lead": "Ecuador ligger vid ekvatorn i nordvästra Sydamerika. Trots sin blygsamma yta samlar landet andinska högländer, fuktig amazonas och stillahavskust i samma stat. Quito, en av världens högst belägna huvudstäder, speglar urfolksarv, kolonial historia och en mångfaldig befolkning.",
+      "hPartnership": "Församlingar och gemenskaper",
+      "pPartnership": "Iglesia del Pacto Evangélico del Ecuador (IPEE) tjänar i församlingar över hela landet. Equmenia (Sverige) har gått sida vid sida med IPEE sedan början av 1970-talet — en vänskap i uppdrag som fortsätter i lokala församlingar och utåtriktat arbete.",
+      "hLand": "Landskap",
+      "pLand": "Att resa i Ecuador kan innebära svalt páramo och vulkaner i Sierra, täta skogar och floder i Amazonas och varmare kustslätter — ofta inom en dags resa. Mångfalden formar vardag, språk och gemenskapens rytm.",
+      "hPeople": "Människor och språk",
+      "pPeople": "Spanska dominerar i det offentliga livet; i många regioner bär man också stoltt på urfolksspråk och traditioner. Gästfrihet, den utökade familjen och kyrkolivet är viktiga för många ecuadorianer — en kontext som formar hur internationella team lyssnar, lär och tjänar tillsammans med lokala troende.",
+      "closing": "Oavsett om du stannar länge eller kort bjuder Ecuador in till ödmjuk gemenskap med dem som följer Jesus i sitt eget kvarter.",
+      "schoolLink": "Ecuador 2026-skola — detaljer och ansökan"
+    },
+    "backBlog": "← Tillbaka till bloggen",
+    "home": "Hem"
+  },
+  "site": {
+    "name": "Apg29",
+    "tagline": "Sagan fortsätter…",
+    "description": "Apg29 vill vara en internationell, mångkulturell missionsrörelse av unga människor vars liv formats och förvandlats till uppdragsledarskap i församlingen och i världen."
+  }
+}
