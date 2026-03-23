@@ -1,7 +1,9 @@
 {
   "Metadata": {
     "defaultTitle": "Hechos29 | La historia continúa…",
-    "defaultDescription": "Hechos29 aspira a ser un movimiento misionero multicultural internacional de jóvenes, cuyas vidas han sido disciplinadas y transformadas para un liderazgo misionero en la Iglesia y en el mundo."
+    "defaultDescription": "Hechos29 (Hechos 29) es una escuela bíblica y movimiento misionero internacional—discipulado, liderazgo y formación en misión. Escuelas en el mundo, Ecuador 2026, coordinadores e historias. Sitio no oficial respecto a acts29.world.",
+    "ogImageTitle": "Hechos29",
+    "ogImageTagline": "Escuela bíblica · Formación en misión · La historia continúa"
   },
   "Nav": {
     "brandTitle": "Hechos 29",
@@ -28,7 +30,9 @@
     "copyright": "© {year} Hechos29",
     "coordinatorsLine": "Coordinadores por país · ver",
     "infoLink": "Info",
-    "footerCredit": "Sitio desarrollado por <credit>Bertil Tandayamo</credit>.",
+    "footerCredit": "Sitio desarrollado por <credit>Bertil Tandayamo</credit> ex participante de la escuela Hechos29",
+    "footerPersonalTitle": "",
+    "footerPersonalIntro": "",
     "footerDisclaimer": "Este sitio es un proyecto independiente y no constituye el sitio web oficial de Hechos29. Para información oficial, consulte <official>acts29.world</official>."
   },
   "funnel": {
@@ -99,7 +103,7 @@
   },
   "Schools": {
     "metaTitle": "Escuelas | Hechos29",
-    "metaDescription": "Escuelas Hechos29 en el mundo — intensivos que forman discípulos y líderes en comunidad.",
+    "metaDescription": "Escuelas bíblicas Hechos29 en el mundo—intensivos de escuela de misiones (Acts29, Apg29) que forman discípulos y líderes en comunidad.",
     "heroTitle": "Escuelas",
     "heroSubtitle": "Hechos29 News — extractos de publicaciones recientes sobre escuelas y encuentros del movimiento.",
     "heroAlt": "Hechos29 escuelas — grupo",
@@ -127,7 +131,7 @@
   },
   "Info": {
     "metaTitle": "Contactos | Hechos29",
-    "metaDescription": "Escríbenos — coordinadores de Hechos29 por país, correo info@Hechos29.world y preguntas frecuentes.",
+    "metaDescription": "Coordinadores Hechos29 por país, escuela bíblica y misiones, info@acts29.world y preguntas frecuentes—movimiento Hechos 29 / Acts29.",
     "heroTitle": "Contacto",
     "heroSubtitle": "Dónde encontrarnos — contactos de coordinadores de Hechos29 en cada país.",
     "heroAlt": "Hechos29 — contacto",
@@ -156,7 +160,7 @@
   },
   "Blog": {
     "metaTitle": "Blog | Hechos29",
-    "metaDescription": "Historias y artículos del movimiento Hechos29 (Hechos29).",
+    "metaDescription": "Historias del movimiento Hechos29—escuela de misiones, Acts29, Apg29 y encuentros globales.",
     "eyebrow": "Blog",
     "title": "Historias y novedades",
     "intro": "Títulos recientes del feed del blog de Hechos29.world: Ecuador 2026, Kongo-Brazzaville 2026, Sudáfrica 2026, Colombia 2025 y Esuatini 2025.",
@@ -164,7 +168,7 @@
   },
   "EcuadorPage": {
     "metaTitle": "Ecuador 2026 | Hechos29",
-    "metaDescription": "Escuela Hechos29 2026 en Ecuador — fechas, programa, alianza con IPEE y cómo aplicar.",
+    "metaDescription": "Escuela bíblica Hechos29 2026 en Ecuador—formación en misión, fechas, IPEE y cómo aplicar a la escuela Hechos 29 / Acts29 en Ecuador.",
     "heroTitle": "Ecuador 2026",
     "heroAlt": "Ecuador — Andes",
     "moreAboutEcuador": "Más sobre Ecuador",
@@ -254,6 +258,6 @@
   "site": {
     "name": "Hechos29",
     "tagline": "La historia continúa…",
-    "description": "Hechos29 aspira a ser un movimiento misionero multicultural internacional de jóvenes, cuyas vidas han sido disciplinadas y transformadas para un liderazgo misionero en la Iglesia y en el mundo."
+    "description": "Hechos29 (Hechos 29)—escuela bíblica y movimiento misionero internacional: discipulado, liderazgo y formación para jóvenes líderes."
   }
 }

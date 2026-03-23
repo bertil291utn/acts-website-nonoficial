@@ -1,6 +1,7 @@
 import { PageHero } from "@/components/page-hero";
 import { Link } from "@/i18n/navigation";
 import { acts29Media } from "@/lib/acts29-media";
+import { buildPageMetadata } from "@/lib/seo";
 import { ecuadorCountryPostPath } from "@/lib/site";
 import type { Metadata } from "next";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
@@ -10,10 +11,14 @@ type Props = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Schools" });
-  return {
+  const tSite = await getTranslations({ locale, namespace: "site" });
+  return buildPageMetadata({
+    locale,
+    pathname: "/schools",
     title: t("metaTitle"),
     description: t("metaDescription"),
-  };
+    siteName: tSite("name"),
+  });
 }
 
 const regionIds = ["latam", "europe", "other"] as const;

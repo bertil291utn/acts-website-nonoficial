@@ -1,6 +1,12 @@
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { routing } from "@/i18n/routing";
+import {
+  absoluteUrl,
+  buildAlternates,
+  getMetadataBase,
+  openGraphLocale,
+} from "@/lib/seo";
 import type { Metadata } from "next";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
@@ -31,12 +37,36 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Metadata" });
+  const tSite = await getTranslations({ locale, namespace: "site" });
+  const siteName = tSite("name");
+  const defaultTitle = t("defaultTitle");
+  const defaultDescription = t("defaultDescription");
+  const ogLoc = openGraphLocale(locale);
+  const homeUrl = absoluteUrl(locale, "/");
+
   return {
-    title: {
-      default: t("defaultTitle"),
-      template: "%s · Acts29",
+    metadataBase: getMetadataBase(),
+    /** Home title; inner routes set full `metaTitle` in each page. */
+    title: defaultTitle,
+    description: defaultDescription,
+    robots: { index: true, follow: true },
+    icons: {
+      icon: [{ url: "/acts29/acts29-logo.svg", type: "image/svg+xml" }],
     },
-    description: t("defaultDescription"),
+    openGraph: {
+      type: "website",
+      title: defaultTitle,
+      description: defaultDescription,
+      url: homeUrl,
+      siteName,
+      locale: ogLoc,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: defaultTitle,
+      description: defaultDescription,
+    },
+    alternates: buildAlternates(locale, "/"),
   };
 }
 

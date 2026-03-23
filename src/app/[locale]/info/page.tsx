@@ -3,6 +3,7 @@ import { PageHero } from "@/components/page-hero";
 import { coordinators } from "@/data/coordinators";
 import { Link } from "@/i18n/navigation";
 import { acts29Media } from "@/lib/acts29-media";
+import { buildPageMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
@@ -11,10 +12,14 @@ type Props = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Info" });
-  return {
+  const tSite = await getTranslations({ locale, namespace: "site" });
+  return buildPageMetadata({
+    locale,
+    pathname: "/info",
     title: t("metaTitle"),
     description: t("metaDescription"),
-  };
+    siteName: tSite("name"),
+  });
 }
 
 const faqIds = ["faq1", "faq2", "faq3"] as const;

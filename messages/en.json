@@ -1,7 +1,9 @@
 {
   "Metadata": {
     "defaultTitle": "Acts29 | The Story Continues…",
-    "defaultDescription": "Acts29 aspires to be an international multicultural mission movement of young people, whose lives have been disciplined and transformed for missional leadership in the Church and in the world."
+    "defaultDescription": "Acts29 (Acts 29) is an international Bible school and mission movement—discipleship, leadership, and mission training. Find Acts29 schools worldwide, Ecuador 2026, coordinators, and stories. Not the official acts29.world site.",
+    "ogImageTitle": "Acts29",
+    "ogImageTagline": "Bible school · Mission training · The story continues"
   },
   "Nav": {
     "brandTitle": "Acts 29",
@@ -28,7 +30,9 @@
     "copyright": "© {year} Acts29",
     "coordinatorsLine": "Coordinators by country · see",
     "infoLink": "Info",
-    "footerCredit": "Built by <credit>Bertil Tandayamo</credit>.",
+    "footerCredit": "Built by <credit>Bertil Tandayamo</credit>, former Acts29 school participant.",
+    "footerPersonalTitle": "",
+    "footerPersonalIntro": "",
     "footerDisclaimer": "This site is an independent project and is not the official Acts29 website. For authoritative information, visit <official>acts29.world</official>."
   },
   "funnel": {
@@ -99,7 +103,7 @@
   },
   "Schools": {
     "metaTitle": "Schools | Acts29",
-    "metaDescription": "Acts29 schools around the world—short-term intensives that form disciples and leaders in community.",
+    "metaDescription": "Acts29 Bible schools worldwide—short-term mission school intensives (Hechos29, Apg29) that form disciples and leaders in community.",
     "heroTitle": "Schools",
     "heroSubtitle": "Acts29 News — highlights from recent posts on the movement’s schools and gatherings.",
     "heroAlt": "Acts29 schools — group",
@@ -127,7 +131,7 @@
   },
   "Info": {
     "metaTitle": "Contacts | Acts29",
-    "metaDescription": "Drop us a line — Acts29 coordinators in each country, email info@acts29.world, and answers to common questions.",
+    "metaDescription": "Contact Acts29 coordinators by country, Bible school questions, info@acts29.world, and FAQs—Acts 29 / Hechos29 movement.",
     "heroTitle": "Contact",
     "heroSubtitle": "Where you can reach us — contacts of Acts29 coordinators in each country.",
     "heroAlt": "Acts29 — contact",
@@ -156,7 +160,7 @@
   },
   "Blog": {
     "metaTitle": "Blog | Acts29",
-    "metaDescription": "Stories, updates, and articles from the Acts29 movement (Hechos29).",
+    "metaDescription": "Stories and updates from the Acts29 Bible school movement—mission schools, Hechos29, Apg29, and global gatherings.",
     "eyebrow": "Blog",
     "title": "Stories & updates",
     "intro": "Recent titles from the acts29.world blog feed include Ecuador 2026, Kongo-Brazzaville 2026, South Africa 2026, Colombia 2025, and Eswatini 2025.",
@@ -164,7 +168,7 @@
   },
   "EcuadorPage": {
     "metaTitle": "Ecuador 2026 | Acts29",
-    "metaDescription": "Acts29 School 2026 in Ecuador—dates, program, partnership with IPEE, and how to apply.",
+    "metaDescription": "Acts29 Bible school 2026 in Ecuador—mission training, dates, IPEE partnership, apply for the Escuela Hechos29 / Acts 29 school in Ecuador.",
     "heroTitle": "Ecuador 2026",
     "heroAlt": "Ecuador — Andes",
     "moreAboutEcuador": "More about Ecuador",
@@ -254,6 +258,6 @@
   "site": {
     "name": "Acts29",
     "tagline": "The story continues…",
-    "description": "Acts29 aspires to be an international multicultural mission movement of young people, whose lives have been disciplined and transformed for missional leadership in the Church and in the world."
+    "description": "Acts29 (Acts 29)—international Bible school and mission movement: discipleship, leadership, and mission training for young leaders worldwide."
   }
 }

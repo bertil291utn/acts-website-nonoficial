@@ -2,6 +2,7 @@ import { EcuadorWordLinks } from "@/components/ecuador-word-links";
 import { PageHero } from "@/components/page-hero";
 import { Link } from "@/i18n/navigation";
 import { acts29Media } from "@/lib/acts29-media";
+import { buildPageMetadata } from "@/lib/seo";
 import {
   ecuadorApplyEuropeExternalUrl,
   ecuadorApplyLatamDocx,
@@ -16,10 +17,14 @@ type Props = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "EcuadorPage" });
-  return {
+  const tSite = await getTranslations({ locale, namespace: "site" });
+  return buildPageMetadata({
+    locale,
+    pathname: "/ecuador",
     title: t("metaTitle"),
     description: t("metaDescription"),
-  };
+    siteName: tSite("name"),
+  });
 }
 
 export default async function EcuadorPage({ params }: Props) {

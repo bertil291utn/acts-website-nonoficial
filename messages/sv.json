@@ -1,7 +1,9 @@
 {
   "Metadata": {
     "defaultTitle": "Apg29 | Sagan fortsätter…",
-    "defaultDescription": "Apg29 vill vara en internationell, mångkulturell missionsrörelse av unga människor vars liv formats och förvandlats till uppdragsledarskap i församlingen och i världen."
+    "defaultDescription": "Apg29 (Apg 29) är en internationell bibelskola och missionsrörelse—lärjungaskap, ledarskap och missionsskola. Hitta Apg29-skolor, Ecuador 2026, samordnare och berättelser. Ej den officiella acts29.world-webbplatsen.",
+    "ogImageTitle": "Apg29",
+    "ogImageTagline": "Bibelskola · Missionsskola · Sagan fortsätter"
   },
   "Nav": {
     "brandTitle": "Apg 29",
@@ -28,7 +30,9 @@
     "copyright": "© {year} Apg29",
     "coordinatorsLine": "Samordnare per land · se",
     "infoLink": "Info",
-    "footerCredit": "Webbplats av <credit>Bertil Tandayamo</credit>.",
+    "footerCredit": "Webbplats av <credit>Bertil Tandayamo</credit>, tidigare deltagare i Apg29-skolan.",
+    "footerPersonalTitle": "",
+    "footerPersonalIntro": "",
     "footerDisclaimer": "Denna webbplats är ett oberoende projekt och inte den officiella Apg29-webbplatsen. För officiell information, se <official>acts29.world</official>."
   },
   "funnel": {
@@ -99,7 +103,7 @@
   },
   "Schools": {
     "metaTitle": "Skolor | Apg29",
-    "metaDescription": "Apg29-skolor världen över – intensivkurser som formar lärjungar och ledare i gemenskap.",
+    "metaDescription": "Apg29-bibelskolor och missionsskola världen över—intensivkurser (Acts29, Hechos29) som formar lärjungar och ledare.",
     "heroTitle": "Skolor",
     "heroSubtitle": "Apg29 News – utdrag från senaste inlägg om rörelsens skolor och sammankomster.",
     "heroAlt": "Apg29-skolor – grupp",
@@ -127,7 +131,7 @@
   },
   "Info": {
     "metaTitle": "Kontakter | Apg29",
-    "metaDescription": "Hör av dig – Apg29-samordnare i varje land, e-post info@Apg29.world och svar på vanliga frågor.",
+    "metaDescription": "Apg29-samordnare per land, frågor om bibelskola och mission, info@acts29.world och FAQ—Apg 29 / Acts29-rörelsen.",
     "heroTitle": "Kontakt",
     "heroSubtitle": "Här når du oss – kontakter till Apg29-samordnare i varje land.",
     "heroAlt": "Apg29 – kontakt",
@@ -156,7 +160,7 @@
   },
   "Blog": {
     "metaTitle": "Blogg | Apg29",
-    "metaDescription": "Berättelser, uppdateringar och artiklar från Apg29-rörelsen (Hechos29).",
+    "metaDescription": "Berättelser från Apg29—missionsskola, Acts29, Hechos29 och möten världen över.",
     "eyebrow": "Blogg",
     "title": "Berättelser & uppdateringar",
     "intro": "Bland senaste rubriker från Apg29.world finns Ecuador 2026, Kongo-Brazzaville 2026, Sydafrika 2026, Colombia 2025 och Eswatini 2025.",
@@ -164,7 +168,7 @@
   },
   "EcuadorPage": {
     "metaTitle": "Ecuador 2026 | Apg29",
-    "metaDescription": "Apg29-skola 2026 i Ecuador — datum, program, partnerskap med IPEE och hur du ansöker.",
+    "metaDescription": "Apg29 bibelskola 2026 i Ecuador—missionsträning, datum, IPEE och hur du söker till Apg29-/Acts29-skolan i Ecuador.",
     "heroTitle": "Ecuador 2026",
     "heroAlt": "Ecuador – Anderna",
     "moreAboutEcuador": "Mer om Ecuador",
@@ -254,6 +258,6 @@
   "site": {
     "name": "Apg29",
     "tagline": "Sagan fortsätter…",
-    "description": "Apg29 vill vara en internationell, mångkulturell missionsrörelse av unga människor vars liv formats och förvandlats till uppdragsledarskap i församlingen och i världen."
+    "description": "Apg29 (Apg 29)—internationell bibelskola och missionsrörelse: lärjungaskap, ledarskap och utbildning för unga ledare."
   }
 }

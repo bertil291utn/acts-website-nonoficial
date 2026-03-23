@@ -3,6 +3,8 @@ import { Link } from "@/i18n/navigation";
 import { localeToDateStringLocale } from "@/lib/locale-dates";
 import { posts, type PostSlug } from "@/lib/posts";
 import { routing } from "@/i18n/routing";
+import { buildPageMetadata } from "@/lib/seo";
+import { postPath } from "@/lib/site";
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -20,10 +22,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = posts[slug as PostSlug];
   if (!post) return { title: "Not found" };
   const t = await getTranslations({ locale, namespace: "Posts" });
-  return {
+  const tSite = await getTranslations({ locale, namespace: "site" });
+  const slugKey = slug as PostSlug;
+  return buildPageMetadata({
+    locale,
+    pathname: postPath(slugKey),
     title: t(`${post.tKey}.title`),
     description: t(`${post.tKey}.excerpt`),
-  };
+    siteName: tSite("name"),
+  });
 }
 
 export default async function PostPage({ params }: Props) {

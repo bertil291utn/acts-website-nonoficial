@@ -15,6 +15,9 @@ export async function SiteFooter() {
   const tNav = await getTranslations("Nav");
   const tSite = await getTranslations("site");
   const year = new Date().getFullYear();
+  const footerPersonalTitle = t("footerPersonalTitle").trim();
+  const footerPersonalIntro = t("footerPersonalIntro").trim();
+  const hasPersonalBlock = Boolean(footerPersonalTitle || footerPersonalIntro);
 
   return (
     <footer className="mt-auto border-t border-white/10 bg-acts-slate">
@@ -118,6 +121,22 @@ export async function SiteFooter() {
                 ),
               })}
             </p>
+            {hasPersonalBlock ? (
+              <>
+                {footerPersonalTitle ? (
+                  <p className="mx-auto mt-3 max-w-3xl font-medium text-acts-cream/90 sm:mx-0">
+                    {footerPersonalTitle}
+                  </p>
+                ) : null}
+                {footerPersonalIntro ? (
+                  <p
+                    className={`mx-auto max-w-3xl sm:mx-0 ${footerPersonalTitle ? "mt-2" : "mt-3"}`}
+                  >
+                    {footerPersonalIntro}
+                  </p>
+                ) : null}
+              </>
+            ) : null}
             <p className="mx-auto mt-2 max-w-3xl sm:mx-0">
               {t.rich("footerDisclaimer", {
                 official: (chunks) => (
