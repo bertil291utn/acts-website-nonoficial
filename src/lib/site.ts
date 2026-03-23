@@ -25,14 +25,14 @@ export const builderPortfolioUrl = "https://www.bertiltandayamo.dev/" as const;
 
 export type NavRoute = {
   href: `/${string}` | "/";
-  navKey: "home" | "schools" | "gallery" | "ecuador" | "blog";
+  navKey: "home" | "schools" | "gallery" | "info" | "blog";
 };
 
 export const navRoutes: NavRoute[] = [
   { href: "/", navKey: "home" },
   { href: "/schools", navKey: "schools" },
   { href: "/gallery", navKey: "gallery" },
-  { href: "/ecuador", navKey: "ecuador" },
+  { href: "/info", navKey: "info" },
   { href: "/blog", navKey: "blog" },
 ];
 
