@@ -9,6 +9,7 @@
     "brandTitle": "Acts 29",
     "home": "Home",
     "schools": "Schools",
+    "gallery": "Gallery",
     "ecuador": "Ecuador",
     "info": "Info",
     "blog": "Blog",
@@ -99,7 +100,12 @@
     "closingTitle": "Where you can reach us",
     "closingBody": "Contacts of Acts29 coordinators in each country — write info@acts29.world or reach your local coordinator through Info.",
     "closingBlog": "Blog & updates",
-    "stepLabel": "Step {n}"
+    "stepLabel": "Step {n}",
+    "galleryTeaserEyebrow": "From the movement",
+    "galleryTeaserTitle": "School life in photos",
+    "galleryTeaserBody": "Moments from Acts29 schools around the world—the same gallery featured on acts29.world.",
+    "galleryTeaserCta": "Open the gallery",
+    "galleryThumbAlt": "Acts29 school photo preview"
   },
   "Schools": {
     "metaTitle": "Schools | Acts29",
@@ -127,7 +133,23 @@
     "ctaTitle": "Next opening — Ecuador 2026",
     "ctaBody": "Dates, cost, languages, and application deadline are in the Ecuador 2026 article. Start there, then stay in touch with your coordinator.",
     "ctaHub": "Ecuador 2026 — school hub",
-    "ctaCountry": "About Ecuador (country)"
+    "ctaCountry": "About Ecuador (country)",
+    "videoEyebrow": "See the school",
+    "videoTitle": "What an Acts29 school feels like",
+    "videoBody": "This film comes from the official Acts29 site—it shows the rhythm of teaching, community, and worship that shapes each school.",
+    "videoAriaLabel": "Acts29 school life — video from acts29.world"
+  },
+  "Gallery": {
+    "metaTitle": "Gallery | Acts29",
+    "metaDescription": "Photos from Acts29 schools worldwide—community, teaching, and mission moments from the official acts29.world gallery.",
+    "heroTitle": "Gallery",
+    "heroSubtitle": "A glimpse of Acts29 schools—participants, places, and gatherings from the movement’s photo collection.",
+    "heroAlt": "Acts29 — gallery",
+    "kicker": "Acts29",
+    "eyebrow": "Moments",
+    "sectionTitle": "Around the world",
+    "sectionBody": "These images match the gallery on acts29.world: Thailand, Alaska, class photos, and more.",
+    "slideAlt": "Acts29 school photo {n}"
   },
   "Info": {
     "metaTitle": "Contacts | Acts29",
@@ -137,9 +159,10 @@
     "heroAlt": "Acts29 — contact",
     "kicker": "Stay in touch",
     "formTitle": "Drop us a line",
-    "formNote": "We will get back to you as soon as possible. This form is static in this preview—use info@acts29.world or the coordinators below for real inquiries.",
+    "formNote": "Submit opens your email to info@acts29.world with your message—review and send from your mail app. You can also write to that address or use the coordinators table.",
     "labels": { "name": "Name *", "email": "Email *", "country": "Country", "message": "Message" },
     "submit": "Send",
+    "mailtoSubject": "Information about the school",
     "asideTitle": "Sweden (Equmenia)",
     "asideBody": "Contact in Sweden: Carl-Johan Sävinger — carl-johan.savinger@equmenia.se. Want to call us? Call or write us by WhatsApp; see the table for your country.",
     "asideEmailLabel": "General email",

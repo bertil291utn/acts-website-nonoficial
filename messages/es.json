@@ -9,6 +9,7 @@
     "brandTitle": "Hechos 29",
     "home": "Inicio",
     "schools": "Escuelas",
+    "gallery": "Galería",
     "ecuador": "Ecuador",
     "info": "Info",
     "blog": "Blog",
@@ -97,9 +98,14 @@
     "ecuadorArticle": "Sobre Ecuador (país)",
     "communityAlt": "Hechos29 en Ecuador — comunidad",
     "closingTitle": "Dónde encontrarnos",
-    "closingBody": "Contactos de coordinadores de Hechos29 en cada país — escribe a info@Hechos29.world o a tu coordinador local desde Info.",
+    "closingBody": "Contactos de coordinadores de Hechos29 en cada país — escribe a info@acts29.world o a tu coordinador local desde Info.",
     "closingBlog": "Blog y novedades",
-    "stepLabel": "Paso {n}"
+    "stepLabel": "Paso {n}",
+    "galleryTeaserEyebrow": "Del movimiento",
+    "galleryTeaserTitle": "La escuela en imágenes",
+    "galleryTeaserBody": "Momentos de las escuelas Hechos29 en varios países — la misma galería que en acts29.world.",
+    "galleryTeaserCta": "Ver la galería",
+    "galleryThumbAlt": "Vista previa de foto de la escuela Hechos29"
   },
   "Schools": {
     "metaTitle": "Escuelas | Hechos29",
@@ -127,7 +133,23 @@
     "ctaTitle": "Próxima apertura — Ecuador 2026",
     "ctaBody": "Fechas, coste, idiomas y fecha límite de solicitud están en el artículo Ecuador 2026. Empieza ahí y mantén contacto con tu coordinador.",
     "ctaHub": "Ecuador 2026 — hub escuela",
-    "ctaCountry": "Sobre Ecuador (país)"
+    "ctaCountry": "Sobre Ecuador (país)",
+    "videoEyebrow": "Mira la escuela",
+    "videoTitle": "Cómo se vive una escuela Hechos29",
+    "videoBody": "Este video proviene del sitio oficial Hechos29 — muestra el ritmo de enseñanza, comunidad y culto que marca cada escuela.",
+    "videoAriaLabel": "Vida en la escuela Hechos29 — video de acts29.world"
+  },
+  "Gallery": {
+    "metaTitle": "Galería | Hechos29",
+    "metaDescription": "Fotos de escuelas Hechos29 en el mundo — comunidad, enseñanza y misión, galería inspirada en acts29.world.",
+    "heroTitle": "Galería",
+    "heroSubtitle": "Un vistazo a las escuelas Hechos29 — participantes, lugares y encuentros de la colección fotográfica del movimiento.",
+    "heroAlt": "Hechos29 — galería",
+    "kicker": "Hechos29",
+    "eyebrow": "Momentos",
+    "sectionTitle": "Alrededor del mundo",
+    "sectionBody": "Estas imágenes corresponden a la galería de acts29.world: Tailandia, Alaska, fotos de clase y más.",
+    "slideAlt": "Foto de escuela Hechos29 {n}"
   },
   "Info": {
     "metaTitle": "Contactos | Hechos29",
@@ -137,13 +159,14 @@
     "heroAlt": "Hechos29 — contacto",
     "kicker": "En contacto",
     "formTitle": "Escríbenos",
-    "formNote": "Te responderemos lo antes posible. Este formulario es estático en esta vista — usa info@Hechos29.world o la tabla de coordinadores para consultas reales.",
+    "formNote": "Al enviar se abrirá tu correo con info@acts29.world; revisa y envía desde tu aplicación de email. También puedes escribir a la misma dirección o usar la tabla de coordinadores.",
     "labels": { "name": "Nombre *", "email": "Correo *", "country": "País", "message": "Mensaje" },
     "submit": "Enviar",
+    "mailtoSubject": "Información sobre la escuela",
     "asideTitle": "Suecia (Equmenia)",
     "asideBody": "Contacto en Suecia: Carl-Johan Sävinger — carl-johan.savinger@equmenia.se. ¿Quieres llamarnos? Llama o escríbenos por WhatsApp; consulta la tabla para tu país.",
     "asideEmailLabel": "Correo general",
-    "asideEmail": "info@Hechos29.world",
+    "asideEmail": "info@acts29.world",
     "asideSocialLabel": "Redes",
     "asideSocialLink": "Enlaces en el pie del sitio",
     "tableSectionTitle": "Coordinadores por país",
@@ -231,9 +254,9 @@
       ],
       "closing": "No es solo una escuela… es una experiencia que puede dar forma a tu propósito para siempre.",
       "hContact": "Contacto",
-      "pContact": "Llamada — texto — WhatsApp · Correo: info@Hechos29.world · Documentos: solicitud y referencia pastoral.",
+      "pContact": "Llamada — texto — WhatsApp · Correo: info@acts29.world · Documentos: solicitud y referencia pastoral.",
       "applyTitle": "Aplicar",
-      "applyBody": "Usa esta página y el coordinador de tu país. Consultas generales: info@Hechos29.world."
+      "applyBody": "Usa esta página y el coordinador de tu país. Consultas generales: info@acts29.world."
     }
   },
   "Posts": {

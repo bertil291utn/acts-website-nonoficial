@@ -1,9 +1,10 @@
 import { CoordinatorsTable } from "@/components/coordinators-table";
+import { InfoContactForm } from "@/components/info-contact-form";
 import { PageHero } from "@/components/page-hero";
 import { coordinators } from "@/data/coordinators";
-import { Link } from "@/i18n/navigation";
 import { acts29Media } from "@/lib/acts29-media";
 import { buildPageMetadata } from "@/lib/seo";
+import { officialInfoEmail, officialInfoMailto, site } from "@/lib/site";
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
@@ -49,73 +50,7 @@ export default async function InfoPage({ params }: Props) {
               {t("formTitle")}
             </h2>
             <p className="mt-2 text-acts-muted">{t("formNote")}</p>
-            <form className="mt-8 space-y-6" action="#" method="post">
-              <div>
-                <label
-                  htmlFor="name"
-                  className="block text-sm font-medium text-acts-muted"
-                >
-                  {t("labels.name")}
-                </label>
-                <input
-                  id="name"
-                  name="name"
-                  type="text"
-                  autoComplete="name"
-                  className="mt-1 w-full border-b border-white/20 bg-transparent py-2 text-acts-cream outline-none placeholder:text-acts-muted focus:border-acts-teal"
-                />
-              </div>
-              <div>
-                <label
-                  htmlFor="email"
-                  className="block text-sm font-medium text-acts-muted"
-                >
-                  {t("labels.email")}
-                </label>
-                <input
-                  id="email"
-                  name="email"
-                  type="email"
-                  autoComplete="email"
-                  className="mt-1 w-full border-b border-white/20 bg-transparent py-2 text-acts-cream outline-none focus:border-acts-teal"
-                />
-              </div>
-              <div>
-                <label
-                  htmlFor="country"
-                  className="block text-sm font-medium text-acts-muted"
-                >
-                  {t("labels.country")}
-                </label>
-                <input
-                  id="country"
-                  name="country"
-                  type="text"
-                  autoComplete="country-name"
-                  className="mt-1 w-full border-b border-white/20 bg-transparent py-2 text-acts-cream outline-none focus:border-acts-teal"
-                />
-              </div>
-              <div>
-                <label
-                  htmlFor="message"
-                  className="block text-sm font-medium text-acts-muted"
-                >
-                  {t("labels.message")}
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows={4}
-                  className="mt-1 w-full border border-white/15 bg-acts-slate/50 px-3 py-2 text-acts-cream outline-none focus:border-acts-teal"
-                />
-              </div>
-              <button
-                type="submit"
-                className="inline-flex rounded-md bg-acts-lime px-8 py-3 text-sm font-semibold text-acts-on-lime hover:bg-acts-lime/90"
-              >
-                {t("submit")}
-              </button>
-            </form>
+            <InfoContactForm />
           </div>
           <aside className="rounded-2xl border border-white/10 bg-acts-slate/80 p-8">
             <h3 className="font-serif text-lg font-semibold text-acts-cream">
@@ -131,20 +66,30 @@ export default async function InfoPage({ params }: Props) {
                 </span>
                 <br />
                 <a
-                  href="mailto:info@acts29.world"
+                  href={officialInfoMailto}
                   className="text-acts-teal underline hover:no-underline"
                 >
-                  {t("asideEmail")}
+                  {officialInfoEmail}
                 </a>
               </li>
               <li>
                 <span className="font-semibold text-acts-cream">
                   {t("asideSocialLabel")}
                 </span>
-                <br />
-                <Link href="/" className="underline hover:text-acts-teal">
-                  {t("asideSocialLink")}
-                </Link>
+                <ul className="mt-2 space-y-2">
+                  {site.social.map((s) => (
+                    <li key={s.href}>
+                      <a
+                        href={s.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-acts-teal underline hover:no-underline"
+                      >
+                        {s.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
               </li>
             </ul>
           </aside>

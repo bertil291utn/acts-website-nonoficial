@@ -4,29 +4,34 @@ export const site = {
   nameKey: "site.name" as const,
   taglineKey: "site.tagline" as const,
   descriptionKey: "site.description" as const,
-  /** Labels match acts29.world footer; replace hrefs with official channel URLs when known. */
   social: [
-    { label: "Facebook", href: "https://www.acts29.world/" },
-    { label: "YouTube", href: "https://www.acts29.world/" },
-    { label: "Instagram", href: "https://www.acts29.world/" },
-    { label: "TikTok", href: "https://www.acts29.world/" },
+    { label: "Facebook", href: "https://www.facebook.com/apg29" },
+    { label: "YouTube", href: "https://www.youtube.com/@user-se8hg3vl6y" },
+    { label: "Instagram", href: "https://www.instagram.com/acts29discipleschool/" },
+    { label: "TikTok", href: "https://www.tiktok.com/@acts29discipleschool" },
   ],
 } as const;
 
 /** Canonical official Acts29 site (acts29.world). */
 export const officialActs29Url = "https://www.acts29.world/" as const;
 
+/** General inquiries email (same in every locale). */
+export const officialInfoEmail = "info@acts29.world" as const;
+
+export const officialInfoMailto = `mailto:${officialInfoEmail}` as const;
+
 /** Site author / builder portfolio. */
 export const builderPortfolioUrl = "https://www.bertiltandayamo.dev/" as const;
 
 export type NavRoute = {
   href: `/${string}` | "/";
-  navKey: "home" | "schools" | "ecuador" | "blog";
+  navKey: "home" | "schools" | "gallery" | "ecuador" | "blog";
 };
 
 export const navRoutes: NavRoute[] = [
   { href: "/", navKey: "home" },
   { href: "/schools", navKey: "schools" },
+  { href: "/gallery", navKey: "gallery" },
   { href: "/ecuador", navKey: "ecuador" },
   { href: "/blog", navKey: "blog" },
 ];

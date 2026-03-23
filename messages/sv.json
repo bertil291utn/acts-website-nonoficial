@@ -9,6 +9,7 @@
     "brandTitle": "Apg 29",
     "home": "Hem",
     "schools": "Skolor",
+    "gallery": "Galleri",
     "ecuador": "Ecuador",
     "info": "Info",
     "blog": "Blogg",
@@ -97,9 +98,14 @@
     "ecuadorArticle": "Om Ecuador (landet)",
     "communityAlt": "Apg29 i Ecuador — gemenskap",
     "closingTitle": "Här når du oss",
-    "closingBody": "Apg29-samordnare i varje land – skriv info@Apg29.world eller kontakta din lokala samordnare via Info.",
+    "closingBody": "Apg29-samordnare i varje land – skriv info@acts29.world eller kontakta din lokala samordnare via Info.",
     "closingBlog": "Blogg & uppdateringar",
-    "stepLabel": "Steg {n}"
+    "stepLabel": "Steg {n}",
+    "galleryTeaserEyebrow": "Från rörelsen",
+    "galleryTeaserTitle": "Skolliv i bilder",
+    "galleryTeaserBody": "Ögonblick från Apg29-skolor världen över – samma galleri som på acts29.world.",
+    "galleryTeaserCta": "Öppna galleriet",
+    "galleryThumbAlt": "Förhandsvisning av Apg29-skolfoto"
   },
   "Schools": {
     "metaTitle": "Skolor | Apg29",
@@ -127,7 +133,23 @@
     "ctaTitle": "Nästa öppning — Ecuador 2026",
     "ctaBody": "Datum, kostnad, språk och sista ansökningsdag finns i artikeln om Ecuador 2026. Börja där och håll kontakten med din samordnare.",
     "ctaHub": "Ecuador 2026 — skol-hub",
-    "ctaCountry": "Om Ecuador (landet)"
+    "ctaCountry": "Om Ecuador (landet)",
+    "videoEyebrow": "Se skolan",
+    "videoTitle": "Så känns en Apg29-skola",
+    "videoBody": "Filmen kommer från den officiella Apg29-webbplatsen – den visar undervisning, gemenskap och gudstjänst som formar varje skola.",
+    "videoAriaLabel": "Liv på Apg29-skola – video från acts29.world"
+  },
+  "Gallery": {
+    "metaTitle": "Galleri | Apg29",
+    "metaDescription": "Bilder från Apg29-skolor världen över – gemenskap, undervisning och mission från acts29.world-galleriet.",
+    "heroTitle": "Galleri",
+    "heroSubtitle": "En glimt av Apg29-skolor – deltagare, platser och samlingar från rörelsens fotosamling.",
+    "heroAlt": "Apg29 — galleri",
+    "kicker": "Apg29",
+    "eyebrow": "Ögonblick",
+    "sectionTitle": "Runt om i världen",
+    "sectionBody": "Bilderna motsvarar galleriet på acts29.world: Thailand, Alaska, klassfoton med mera.",
+    "slideAlt": "Apg29-skolfoto {n}"
   },
   "Info": {
     "metaTitle": "Kontakter | Apg29",
@@ -137,13 +159,14 @@
     "heroAlt": "Apg29 – kontakt",
     "kicker": "Håll kontakten",
     "formTitle": "Skriv en rad",
-    "formNote": "Vi återkommer så snart vi kan. Detta formulär är statiskt i denna förhandsvisning – använd info@Apg29.world eller samordnarna nedan för riktiga frågor.",
+    "formNote": "När du skickar öppnas e-post till info@acts29.world — granska och skicka från din e-postapp. Du kan också skriva till samma adress eller använda samordnartabellen.",
     "labels": { "name": "Namn *", "email": "E-post *", "country": "Land", "message": "Meddelande" },
     "submit": "Skicka",
+    "mailtoSubject": "Information om skolan",
     "asideTitle": "Sverige (Equmenia)",
     "asideBody": "Kontakt i Sverige: Carl-Johan Sävinger — carl-johan.savinger@equmenia.se. Vill du ringa? Ring eller skriv via WhatsApp; se tabellen för ditt land.",
     "asideEmailLabel": "Allmän e-post",
-    "asideEmail": "info@Apg29.world",
+    "asideEmail": "info@acts29.world",
     "asideSocialLabel": "Sociala medier",
     "asideSocialLink": "Länkar i sidfoten",
     "tableSectionTitle": "Samordnare per land",
@@ -231,9 +254,9 @@
       ],
       "closing": "Det här är inte bara en skola … det är en upplevelse som kan forma ditt kall för alltid.",
       "hContact": "Kontakt",
-      "pContact": "Ring — SMS — WhatsApp · E-post: info@Apg29.world · Handlingar: ansökan och pastorsexempel.",
+      "pContact": "Ring — SMS — WhatsApp · E-post: info@acts29.world · Handlingar: ansökan och pastorsexempel.",
       "applyTitle": "Ansök",
-      "applyBody": "Använd den här sidan och din samordnare i landet. Allmänna frågor: info@Apg29.world."
+      "applyBody": "Använd den här sidan och din samordnare i landet. Allmänna frågor: info@acts29.world."
     }
   },
   "Posts": {
