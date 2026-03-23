@@ -1,10 +1,28 @@
 import type { Metadata } from "next";
 import { routing } from "@/i18n/routing";
 
+/**
+ * Base URL for `metadataBase`, canonical URLs, and OG/Twitter image absolutization.
+ * - Prefer `NEXT_PUBLIC_SITE_URL` (set in Vercel to e.g. `https://acts29.vercel.app`).
+ * - On Vercel, `VERCEL_URL` is injected automatically so previews/production get correct
+ *   `og:image` without localhost.
+ * - Fallback: local dev on `http://localhost:3000`.
+ */
 export function getMetadataBase(): URL {
-  const raw = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
-  const trimmed = raw.endsWith("/") ? raw.slice(0, -1) : raw;
-  return new URL(trimmed);
+  const explicit = process.env.NEXT_PUBLIC_SITE_URL?.trim();
+  if (explicit) {
+    const withProtocol = /^https?:\/\//i.test(explicit)
+      ? explicit
+      : `https://${explicit}`;
+    const trimmed = withProtocol.replace(/\/$/, "");
+    return new URL(trimmed);
+  }
+  const vercel = process.env.VERCEL_URL?.trim();
+  if (vercel) {
+    const host = vercel.replace(/^https?:\/\//i, "").split("/")[0];
+    return new URL(`https://${host}`);
+  }
+  return new URL("http://localhost:3000");
 }
 
 /** Pathname without locale prefix, e.g. `/`, `/blog`, `/post/ecuador`. */
