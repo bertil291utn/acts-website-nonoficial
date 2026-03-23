@@ -1,4 +1,4 @@
-/** Local assets copied from `content/acts29-world-images/` → `public/acts29/`. */
+/** Image paths under `public/acts29/`. */
 export const acts29Media = {
   hero: "/acts29/hero.jpg",
   discipleship: "/acts29/discipleship.jpg",
