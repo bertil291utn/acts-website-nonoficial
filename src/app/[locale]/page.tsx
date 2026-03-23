@@ -1,5 +1,5 @@
 import { funnel } from "@/lib/funnel";
-import { acts29Media } from "@/lib/acts29-media";
+import { acts29GalleryImages, acts29Media } from "@/lib/acts29-media";
 import { ecuadorCountryPostPath, ecuadorPostPath } from "@/lib/site";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Image from "next/image";
@@ -187,6 +187,47 @@ export default async function HomePage({ params }: Props) {
         <p className="mt-4 max-w-3xl text-lg leading-relaxed text-acts-muted">
           {t("movementBody")}
         </p>
+      </section>
+
+      <section
+        data-section="gallery-teaser"
+        className="border-y border-white/10 bg-acts-slate/40 py-16"
+      >
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-acts-muted">
+            {t("galleryTeaserEyebrow")}
+          </p>
+          <h2 className="mt-2 font-serif text-3xl font-semibold text-acts-cream sm:text-4xl">
+            {t("galleryTeaserTitle")}
+          </h2>
+          <p className="mt-3 max-w-2xl text-lg text-acts-muted">
+            {t("galleryTeaserBody")}
+          </p>
+          <div className="mt-8 grid grid-cols-3 gap-3 sm:gap-4">
+            {acts29GalleryImages.slice(0, 3).map((src) => (
+              <div
+                key={src}
+                className="relative aspect-4/3 overflow-hidden rounded-xl border border-white/10 bg-acts-slate"
+              >
+                <Image
+                  src={src}
+                  alt={t("galleryThumbAlt")}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 640px) 33vw, 240px"
+                />
+              </div>
+            ))}
+          </div>
+          <div className="mt-8">
+            <Link
+              href="/gallery"
+              className="inline-flex rounded-md border border-white/25 bg-transparent px-6 py-3 text-sm font-semibold text-acts-cream transition hover:border-acts-teal hover:text-acts-teal"
+            >
+              {t("galleryTeaserCta")}
+            </Link>
+          </div>
+        </div>
       </section>
 
       <section

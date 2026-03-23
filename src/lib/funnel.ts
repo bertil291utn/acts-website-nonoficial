@@ -25,6 +25,7 @@ export const funnel = {
     "partners",
     "vision",
     "pillars",
+    "gallery-teaser",
     "path",
     "stats",
     "ecuador",

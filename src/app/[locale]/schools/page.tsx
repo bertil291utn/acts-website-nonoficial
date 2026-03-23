@@ -1,4 +1,5 @@
 import { PageHero } from "@/components/page-hero";
+import { SchoolLifeVideo } from "@/components/school-life-video";
 import { Link } from "@/i18n/navigation";
 import { acts29Media } from "@/lib/acts29-media";
 import { buildPageMetadata } from "@/lib/seo";
@@ -47,8 +48,17 @@ export default async function SchoolsPage({ params }: Props) {
         <p className="max-w-3xl text-lg leading-relaxed text-acts-muted">
           {t("intro")}
         </p>
+      </section>
 
-        <div className="mt-10 rounded-2xl bg-acts-slate px-6 py-10 text-white sm:px-10">
+      <SchoolLifeVideo
+        eyebrow={t("videoEyebrow")}
+        title={t("videoTitle")}
+        body={t("videoBody")}
+        videoLabel={t("videoAriaLabel")}
+      />
+
+      <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+        <div className="rounded-2xl bg-acts-slate px-6 py-10 text-white sm:px-10">
           <h2 className="font-serif text-2xl font-semibold">{t("ctaTitle")}</h2>
           <p className="mt-3 max-w-2xl text-white/90">{t("ctaBody")}</p>
           <div className="mt-6 flex flex-wrap gap-3">
