@@ -1,22 +1,32 @@
 @import "tailwindcss";
 
-/* Edmun-like foundation + ESCA-inspired contrast (ink, stat bands) + warm accent (not brand-red) */
+/* Stitch-like / acts29.world — lima, carbón, pizarra, turquesa */
 :root {
-  --background: #ffffff;
-  --foreground: #0f172a;
-  --acts-navy: #0c1b33;
-  --acts-ink: #050a14;
-  --acts-muted: #64748b;
-  --acts-surface: #f8fafc;
-  --acts-accent: #b45309;
-  --acts-accent-soft: rgba(180, 83, 9, 0.12);
+  --acts-charcoal: #121619;
+  --acts-slate: #323e48;
+  --acts-lime: #a4c639;
+  --acts-teal: #30c5d2;
+  --acts-ink: #121619;
+  --acts-cream: #f8fafc;
+  --acts-on-lime: #121619;
+  --background: var(--acts-charcoal);
+  --foreground: #f1f5f9;
+  --acts-muted: #94a3b8;
+  --acts-surface: #323e48;
+  --acts-accent: var(--acts-teal);
+  --acts-accent-soft: rgba(48, 197, 210, 0.12);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-acts-navy: var(--acts-navy);
+  --color-acts-charcoal: var(--acts-charcoal);
+  --color-acts-slate: var(--acts-slate);
+  --color-acts-lime: var(--acts-lime);
+  --color-acts-teal: var(--acts-teal);
   --color-acts-ink: var(--acts-ink);
+  --color-acts-cream: var(--acts-cream);
+  --color-acts-on-lime: var(--acts-on-lime);
   --color-acts-muted: var(--acts-muted);
   --color-acts-surface: var(--acts-surface);
   --color-acts-accent: var(--acts-accent);

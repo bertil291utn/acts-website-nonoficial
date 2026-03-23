@@ -33,21 +33,21 @@ export default async function BlogPage({ params }: Props) {
     .sort((a, b) => (a.date < b.date ? 1 : -1));
 
   return (
-    <div className="bg-slate-50">
+    <div className="bg-acts-charcoal">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">
+        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-acts-muted">
           {t("eyebrow")}
         </p>
-        <h1 className="mt-2 font-serif text-4xl font-semibold text-acts-navy">
+        <h1 className="mt-2 font-serif text-4xl font-semibold text-acts-cream">
           {t("title")}
         </h1>
-        <p className="mt-4 max-w-2xl text-lg text-slate-600">{t("intro")}</p>
+        <p className="mt-4 max-w-2xl text-lg text-acts-muted">{t("intro")}</p>
 
         <div className="mt-12 grid gap-8 sm:grid-cols-2">
           {list.map((post) => (
             <article
               key={post.href}
-              className="flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm"
+              className="flex flex-col overflow-hidden rounded-2xl border border-white/10 bg-acts-slate/90 shadow-sm"
             >
               <Link href={post.href} className="relative block aspect-[16/10]">
                 <Image
@@ -61,7 +61,7 @@ export default async function BlogPage({ params }: Props) {
               <div className="flex flex-1 flex-col p-6">
                 <time
                   dateTime={post.date}
-                  className="text-xs font-medium uppercase tracking-wide text-slate-500"
+                  className="text-xs font-medium uppercase tracking-wide text-acts-muted"
                 >
                   {new Date(post.date).toLocaleDateString(
                     localeToDateStringLocale(locale),
@@ -72,17 +72,17 @@ export default async function BlogPage({ params }: Props) {
                     },
                   )}
                 </time>
-                <h2 className="mt-2 font-serif text-xl font-semibold text-acts-navy">
-                  <Link href={post.href} className="hover:underline">
+                <h2 className="mt-2 font-serif text-xl font-semibold text-acts-cream">
+                  <Link href={post.href} className="hover:text-acts-teal hover:underline">
                     {post.title}
                   </Link>
                 </h2>
-                <p className="mt-2 flex-1 text-sm leading-relaxed text-slate-600">
+                <p className="mt-2 flex-1 text-sm leading-relaxed text-acts-muted">
                   {post.excerpt}
                 </p>
                 <Link
                   href={post.href}
-                  className="mt-4 text-sm font-semibold text-acts-navy"
+                  className="mt-4 text-sm font-semibold text-acts-teal"
                 >
                   {t("read")}
                 </Link>

@@ -1,7 +1,7 @@
 import { PageHero } from "@/components/page-hero";
 import { Link } from "@/i18n/navigation";
 import { acts29Media } from "@/lib/acts29-media";
-import { ecuadorCountryPostPath, ecuadorPostPath } from "@/lib/site";
+import { ecuadorCountryPostPath } from "@/lib/site";
 import type { Metadata } from "next";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 
@@ -39,17 +39,17 @@ export default async function SchoolsPage({ params }: Props) {
       />
 
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
-        <p className="max-w-3xl text-lg leading-relaxed text-slate-600">
+        <p className="max-w-3xl text-lg leading-relaxed text-acts-muted">
           {t("intro")}
         </p>
 
-        <div className="mt-10 rounded-2xl bg-acts-navy px-6 py-10 text-white sm:px-10">
+        <div className="mt-10 rounded-2xl bg-acts-slate px-6 py-10 text-white sm:px-10">
           <h2 className="font-serif text-2xl font-semibold">{t("ctaTitle")}</h2>
           <p className="mt-3 max-w-2xl text-white/90">{t("ctaBody")}</p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Link
               href="/ecuador"
-              className="inline-flex rounded-md bg-white px-5 py-2.5 text-sm font-semibold text-acts-navy"
+              className="inline-flex rounded-md bg-acts-lime px-5 py-2.5 text-sm font-semibold text-acts-on-lime hover:bg-acts-lime/90"
             >
               {t("ctaHub")}
             </Link>
@@ -62,24 +62,24 @@ export default async function SchoolsPage({ params }: Props) {
           </div>
         </div>
 
-        <div className="mt-14 rounded-2xl border border-slate-200 bg-slate-50/80 p-8 sm:p-10">
-          <h2 className="font-serif text-2xl font-semibold text-acts-navy">
+        <div className="mt-14 rounded-2xl border border-white/10 bg-acts-slate/50 p-8 sm:p-10">
+          <h2 className="font-serif text-2xl font-semibold text-acts-cream">
             {t("newsTitle")}
           </h2>
           <div className="mt-6 grid gap-8 md:grid-cols-2">
             <article>
-              <h3 className="font-serif text-lg font-semibold text-acts-navy">
+              <h3 className="font-serif text-lg font-semibold text-acts-cream">
                 {t("news1Title")}
               </h3>
-              <p className="mt-2 text-sm leading-relaxed text-slate-600">
+              <p className="mt-2 text-sm leading-relaxed text-acts-muted">
                 {t("news1Body")}
               </p>
             </article>
             <article>
-              <h3 className="font-serif text-lg font-semibold text-acts-navy">
+              <h3 className="font-serif text-lg font-semibold text-acts-cream">
                 {t("news2Title")}
               </h3>
-              <p className="mt-2 text-sm leading-relaxed text-slate-600">
+              <p className="mt-2 text-sm leading-relaxed text-acts-muted">
                 {t("news2Body")}
               </p>
             </article>
@@ -90,22 +90,22 @@ export default async function SchoolsPage({ params }: Props) {
           {regionIds.map((id) => (
             <article
               key={id}
-              className="flex flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
+              className="flex flex-col rounded-2xl border border-white/10 bg-acts-slate/80 p-6 shadow-sm"
             >
-              <h2 className="font-serif text-xl font-semibold text-acts-navy">
+              <h2 className="font-serif text-xl font-semibold text-acts-cream">
                 {t(`regions.${id}.name`)}
               </h2>
               <ul className="mt-4 flex flex-wrap gap-2">
                 {places[id].map((p) => (
                   <li
                     key={p}
-                    className="rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-700"
+                    className="rounded-full bg-acts-charcoal/80 px-3 py-1 text-xs font-medium text-acts-cream"
                   >
                     {p}
                   </li>
                 ))}
               </ul>
-              <p className="mt-4 text-sm leading-relaxed text-slate-600">
+              <p className="mt-4 text-sm leading-relaxed text-acts-muted">
                 {t(`regions.${id}.note`)}
               </p>
             </article>

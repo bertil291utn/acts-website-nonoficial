@@ -17,7 +17,7 @@ export function LocaleSwitcher() {
 
   return (
     <div
-      className="flex flex-wrap items-center justify-center gap-1 rounded-full border border-slate-200 bg-white px-1 py-0.5 text-xs font-medium"
+      className="flex flex-wrap items-center justify-center gap-1 rounded-full border border-white/15 bg-acts-slate/80 px-1 py-0.5 text-xs font-medium"
       role="navigation"
       aria-label={t("languageNav")}
     >
@@ -28,8 +28,8 @@ export function LocaleSwitcher() {
           locale={loc}
           className={
             locale === loc
-              ? "rounded-full bg-acts-navy px-2 py-1 text-white"
-              : "rounded-full px-2 py-1 text-slate-600 hover:text-acts-navy"
+              ? "rounded-full bg-acts-lime px-2 py-1 text-acts-on-lime"
+              : "rounded-full px-2 py-1 text-acts-muted hover:text-acts-teal"
           }
         >
           {t(LANG_KEY[loc])}

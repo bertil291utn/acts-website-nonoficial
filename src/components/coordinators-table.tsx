@@ -18,10 +18,10 @@ export function CoordinatorsTable({
   colEmail,
 }: Props) {
   return (
-    <div className="overflow-x-auto rounded-xl border border-slate-200 bg-white shadow-sm">
-      <table className="w-full min-w-[640px] text-left text-sm text-slate-700">
+    <div className="overflow-x-auto rounded-xl border border-white/10 bg-acts-charcoal shadow-sm">
+      <table className="w-full min-w-[640px] text-left text-sm text-acts-muted">
         <caption className="sr-only">{caption}</caption>
-        <thead className="border-b border-slate-200 bg-slate-50 text-xs font-semibold uppercase tracking-wide text-slate-500">
+        <thead className="border-b border-white/10 bg-acts-slate text-xs font-semibold uppercase tracking-wide text-acts-cream">
           <tr>
             <th scope="col" className="px-4 py-3">
               {colCountry}
@@ -37,25 +37,26 @@ export function CoordinatorsTable({
             </th>
           </tr>
         </thead>
-        <tbody className="divide-y divide-slate-100">
-          {rows.map((row) => (
-            <tr key={`${row.country}-${row.contact}-${row.email}`}>
-              <td className="whitespace-nowrap px-4 py-3 font-medium text-acts-navy">
+        <tbody className="divide-y divide-white/10">
+          {rows.map((row, i) => (
+            <tr
+              key={`${row.country}-${row.contact}`}
+              className={
+                i % 2 === 0 ? "bg-acts-lime/15" : "bg-acts-slate/40"
+              }
+            >
+              <td className="whitespace-nowrap px-4 py-3 font-medium text-acts-cream">
                 {row.country}
               </td>
               <td className="px-4 py-3">{row.contact}</td>
               <td className="whitespace-nowrap px-4 py-3">{row.phone}</td>
               <td className="px-4 py-3">
-                {row.email !== "—" ? (
-                  <a
-                    href={`mailto:${row.email}`}
-                    className="text-acts-navy underline-offset-2 hover:underline"
-                  >
-                    {row.email}
-                  </a>
-                ) : (
-                  "—"
-                )}
+                <a
+                  href={`mailto:${row.email}`}
+                  className="text-acts-teal underline-offset-2 hover:underline"
+                >
+                  {row.email}
+                </a>
               </td>
             </tr>
           ))}

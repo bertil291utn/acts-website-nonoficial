@@ -46,7 +46,7 @@ export default async function PostPage({ params }: Props) {
       />
 
       <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
-        <p className="text-sm text-slate-500">
+        <p className="text-sm text-acts-muted">
           {new Date(post.date).toLocaleDateString(localeToDateStringLocale(locale), {
             year: "numeric",
             month: "long",
@@ -54,32 +54,32 @@ export default async function PostPage({ params }: Props) {
           })}
         </p>
 
-        <div className="prose prose-slate mt-8 max-w-none">
-          <p className="lead text-xl text-slate-700">{t(`${tk}.lead`)}</p>
-          <h3 className="font-serif text-2xl text-acts-navy">{t(`${tk}.hPartnership`)}</h3>
+        <div className="prose prose-invert mt-8 max-w-none prose-headings:font-serif prose-headings:text-acts-cream prose-a:text-acts-teal">
+          <p className="lead text-xl text-acts-muted">{t(`${tk}.lead`)}</p>
+          <h3 className="font-serif text-2xl text-acts-cream">{t(`${tk}.hPartnership`)}</h3>
           <p>{t(`${tk}.pPartnership`)}</p>
-          <h3 className="font-serif text-2xl text-acts-navy">{t(`${tk}.hLand`)}</h3>
+          <h3 className="font-serif text-2xl text-acts-cream">{t(`${tk}.hLand`)}</h3>
           <p>{t(`${tk}.pLand`)}</p>
-          <h3 className="font-serif text-2xl text-acts-navy">{t(`${tk}.hPeople`)}</h3>
+          <h3 className="font-serif text-2xl text-acts-cream">{t(`${tk}.hPeople`)}</h3>
           <p>{t(`${tk}.pPeople`)}</p>
-          <p className="font-medium text-acts-navy">{t(`${tk}.closing`)}</p>
+          <p className="font-medium text-acts-cream">{t(`${tk}.closing`)}</p>
           <p className="not-prose mt-8 text-sm font-semibold">
-            <Link href="/ecuador" className="text-acts-navy underline">
+            <Link href="/ecuador" className="text-acts-teal underline">
               {t(`${tk}.schoolLink`)}
             </Link>
           </p>
         </div>
 
-        <div className="mt-14 flex flex-wrap gap-3 border-t border-slate-200 pt-10">
+        <div className="mt-14 flex flex-wrap gap-3 border-t border-white/10 pt-10">
           <Link
             href="/blog"
-            className="text-sm font-semibold text-acts-navy hover:underline"
+            className="text-sm font-semibold text-acts-teal hover:underline"
           >
             {t("backBlog")}
           </Link>
           <Link
             href="/"
-            className="text-sm font-semibold text-slate-500 hover:text-acts-navy"
+            className="text-sm font-semibold text-acts-muted hover:text-acts-cream"
           >
             {t("home")}
           </Link>

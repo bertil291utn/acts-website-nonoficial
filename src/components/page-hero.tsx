@@ -18,7 +18,7 @@ export function PageHero({
   kicker,
 }: PageHeroProps) {
   return (
-    <section className="relative overflow-hidden bg-acts-ink">
+    <section className="relative overflow-hidden bg-acts-charcoal">
       <div className="absolute inset-0">
         <Image
           src={imageSrc}
@@ -28,7 +28,7 @@ export function PageHero({
           sizes="100vw"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-acts-ink/95 via-acts-ink/78 to-acts-ink/35" />
+        <div className="absolute inset-0 bg-gradient-to-r from-acts-charcoal/95 via-acts-charcoal/78 to-acts-charcoal/35" />
       </div>
       <div className="relative mx-auto max-w-6xl px-4 py-24 sm:px-6 sm:py-32 lg:py-40">
         {kicker ? (

@@ -36,19 +36,19 @@ export default async function InfoPage({ params }: Props) {
 
       <section
         id="contact"
-        className="scroll-mt-28 border-b border-slate-200 bg-white py-16"
+        className="scroll-mt-28 border-b border-white/10 bg-acts-charcoal py-16"
       >
         <div className="mx-auto grid max-w-6xl gap-12 px-4 sm:px-6 lg:grid-cols-2">
           <div>
-            <h2 className="font-serif text-2xl font-semibold text-acts-navy">
+            <h2 className="font-serif text-2xl font-semibold text-acts-cream">
               {t("formTitle")}
             </h2>
-            <p className="mt-2 text-slate-600">{t("formNote")}</p>
+            <p className="mt-2 text-acts-muted">{t("formNote")}</p>
             <form className="mt-8 space-y-6" action="#" method="post">
               <div>
                 <label
                   htmlFor="name"
-                  className="block text-sm font-medium text-slate-700"
+                  className="block text-sm font-medium text-acts-muted"
                 >
                   {t("labels.name")}
                 </label>
@@ -57,13 +57,13 @@ export default async function InfoPage({ params }: Props) {
                   name="name"
                   type="text"
                   autoComplete="name"
-                  className="mt-1 w-full border-b border-slate-300 bg-transparent py-2 text-slate-900 outline-none focus:border-acts-navy"
+                  className="mt-1 w-full border-b border-white/20 bg-transparent py-2 text-acts-cream outline-none placeholder:text-acts-muted focus:border-acts-teal"
                 />
               </div>
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium text-slate-700"
+                  className="block text-sm font-medium text-acts-muted"
                 >
                   {t("labels.email")}
                 </label>
@@ -72,13 +72,13 @@ export default async function InfoPage({ params }: Props) {
                   name="email"
                   type="email"
                   autoComplete="email"
-                  className="mt-1 w-full border-b border-slate-300 bg-transparent py-2 text-slate-900 outline-none focus:border-acts-navy"
+                  className="mt-1 w-full border-b border-white/20 bg-transparent py-2 text-acts-cream outline-none focus:border-acts-teal"
                 />
               </div>
               <div>
                 <label
                   htmlFor="country"
-                  className="block text-sm font-medium text-slate-700"
+                  className="block text-sm font-medium text-acts-muted"
                 >
                   {t("labels.country")}
                 </label>
@@ -87,13 +87,13 @@ export default async function InfoPage({ params }: Props) {
                   name="country"
                   type="text"
                   autoComplete="country-name"
-                  className="mt-1 w-full border-b border-slate-300 bg-transparent py-2 text-slate-900 outline-none focus:border-acts-navy"
+                  className="mt-1 w-full border-b border-white/20 bg-transparent py-2 text-acts-cream outline-none focus:border-acts-teal"
                 />
               </div>
               <div>
                 <label
                   htmlFor="message"
-                  className="block text-sm font-medium text-slate-700"
+                  className="block text-sm font-medium text-acts-muted"
                 >
                   {t("labels.message")}
                 </label>
@@ -101,43 +101,43 @@ export default async function InfoPage({ params }: Props) {
                   id="message"
                   name="message"
                   rows={4}
-                  className="mt-1 w-full border border-slate-200 bg-slate-50 px-3 py-2 text-slate-900 outline-none focus:border-acts-navy"
+                  className="mt-1 w-full border border-white/15 bg-acts-slate/50 px-3 py-2 text-acts-cream outline-none focus:border-acts-teal"
                 />
               </div>
               <button
                 type="submit"
-                className="inline-flex rounded-md bg-acts-navy px-8 py-3 text-sm font-semibold text-white"
+                className="inline-flex rounded-md bg-acts-lime px-8 py-3 text-sm font-semibold text-acts-on-lime hover:bg-acts-lime/90"
               >
                 {t("submit")}
               </button>
             </form>
           </div>
-          <aside className="rounded-2xl border border-slate-200 bg-slate-50 p-8">
-            <h3 className="font-serif text-lg font-semibold text-acts-navy">
+          <aside className="rounded-2xl border border-white/10 bg-acts-slate/80 p-8">
+            <h3 className="font-serif text-lg font-semibold text-acts-cream">
               {t("asideTitle")}
             </h3>
-            <p className="mt-2 text-sm leading-relaxed text-slate-600">
+            <p className="mt-2 text-sm leading-relaxed text-acts-muted">
               {t("asideBody")}
             </p>
-            <ul className="mt-6 space-y-3 text-sm text-slate-700">
+            <ul className="mt-6 space-y-3 text-sm text-acts-muted">
               <li>
-                <span className="font-semibold text-acts-navy">
+                <span className="font-semibold text-acts-cream">
                   {t("asideEmailLabel")}
                 </span>
                 <br />
                 <a
                   href="mailto:info@acts29.world"
-                  className="text-acts-navy underline hover:no-underline"
+                  className="text-acts-teal underline hover:no-underline"
                 >
                   {t("asideEmail")}
                 </a>
               </li>
               <li>
-                <span className="font-semibold text-acts-navy">
+                <span className="font-semibold text-acts-cream">
                   {t("asideSocialLabel")}
                 </span>
                 <br />
-                <Link href="/" className="underline hover:text-acts-navy">
+                <Link href="/" className="underline hover:text-acts-teal">
                   {t("asideSocialLink")}
                 </Link>
               </li>
@@ -148,13 +148,13 @@ export default async function InfoPage({ params }: Props) {
 
       <section
         id="coordinators"
-        className="scroll-mt-28 border-b border-slate-200 bg-slate-50 py-16"
+        className="scroll-mt-28 border-b border-white/10 bg-acts-slate/30 py-16"
       >
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <h2 className="font-serif text-2xl font-semibold text-acts-navy">
+          <h2 className="font-serif text-2xl font-semibold text-acts-cream">
             {t("tableSectionTitle")}
           </h2>
-          <p className="mt-2 max-w-3xl text-slate-600">{t("tableSectionLead")}</p>
+          <p className="mt-2 max-w-3xl text-acts-muted">{t("tableSectionLead")}</p>
           <div className="mt-8">
             <CoordinatorsTable
               rows={coordinators}
@@ -169,23 +169,23 @@ export default async function InfoPage({ params }: Props) {
       </section>
 
       <section className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
-        <h2 className="font-serif text-2xl font-semibold text-acts-navy">
+        <h2 className="font-serif text-2xl font-semibold text-acts-cream">
           {t("faqTitle")}
         </h2>
-        <div className="mt-8 divide-y divide-slate-200">
+        <div className="mt-8 divide-y divide-white/10">
           {faqIds.map((id, i) => (
             <details
               key={id}
               className="group py-4"
               open={i === 0}
             >
-              <summary className="cursor-pointer list-none font-medium text-acts-navy">
+              <summary className="cursor-pointer list-none font-medium text-acts-cream">
                 <span className="mr-2 inline-block transition group-open:rotate-90">
                   ›
                 </span>
                 {t(`${id}.q`)}
               </summary>
-              <p className="mt-3 pl-6 text-sm leading-relaxed text-slate-600">
+              <p className="mt-3 pl-6 text-sm leading-relaxed text-acts-muted">
                 {t(`${id}.a`)}
               </p>
             </details>

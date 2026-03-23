@@ -17,7 +17,7 @@ export function EcuadorWordLinks({ text, className }: Props) {
             href="/post/ecuador"
             className={
               className ??
-              "underline decoration-acts-navy/50 underline-offset-2 hover:text-acts-navy"
+              "underline decoration-acts-teal/50 underline-offset-2 hover:text-acts-teal"
             }
           >
             {part}
