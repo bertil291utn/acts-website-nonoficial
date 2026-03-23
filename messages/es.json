@@ -27,7 +27,9 @@
     "connect": "Conectar",
     "copyright": "© {year} Hechos29",
     "coordinatorsLine": "Coordinadores por país · ver",
-    "infoLink": "Info"
+    "infoLink": "Info",
+    "footerCredit": "Sitio desarrollado por <credit>Bertil Tandayamo</credit>.",
+    "footerDisclaimer": "Este sitio es un proyecto independiente y no constituye el sitio web oficial de Hechos29. Para información oficial, consulte <official>acts29.world</official>."
   },
   "funnel": {
     "primaryCta": "Aplicar a Ecuador 2026",

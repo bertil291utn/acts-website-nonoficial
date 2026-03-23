@@ -27,7 +27,9 @@
     "connect": "Connect",
     "copyright": "© {year} Acts29",
     "coordinatorsLine": "Coordinators by country · see",
-    "infoLink": "Info"
+    "infoLink": "Info",
+    "footerCredit": "Built by <credit>Bertil Tandayamo</credit>.",
+    "footerDisclaimer": "This site is an independent project and is not the official Acts29 website. For authoritative information, visit <official>acts29.world</official>."
   },
   "funnel": {
     "primaryCta": "Apply for Ecuador 2026",

@@ -1,8 +1,10 @@
 import { Link } from "@/i18n/navigation";
 import {
+  builderPortfolioUrl,
   ecuadorCountryPostPath,
   ecuadorPostPath,
   navRoutes,
+  officialActs29Url,
   site,
 } from "@/lib/site";
 import { getTranslations } from "next-intl/server";
@@ -88,17 +90,49 @@ export async function SiteFooter() {
         </div>
       </div>
       <div className="border-t border-white/10 bg-acts-charcoal">
-        <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 py-6 text-xs text-acts-muted sm:flex-row sm:items-center sm:px-6">
-          <div className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:gap-6">
-            <span>{t("copyright", { year })}</span>
-            <LocaleSwitcher />
+        <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
+          <div className="flex flex-col items-center justify-between gap-4 text-xs text-acts-muted sm:flex-row sm:items-center">
+            <div className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:gap-6">
+              <span>{t("copyright", { year })}</span>
+              <LocaleSwitcher />
+            </div>
+            <span className="text-center sm:max-w-md sm:text-right">
+              {t("coordinatorsLine")}{" "}
+              <Link href="/info" className="underline hover:text-acts-teal">
+                {t("infoLink")}
+              </Link>
+            </span>
           </div>
-          <span className="text-center sm:max-w-md sm:text-right">
-            {t("coordinatorsLine")}{" "}
-            <Link href="/info" className="underline hover:text-acts-teal">
-              {t("infoLink")}
-            </Link>
-          </span>
+          <div className="mt-4 border-t border-white/5 pt-4 text-center text-xs leading-relaxed text-acts-muted sm:text-left">
+            <p>
+              {t.rich("footerCredit", {
+                credit: (chunks) => (
+                  <a
+                    href={builderPortfolioUrl}
+                    className="underline hover:text-acts-teal"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {chunks}
+                  </a>
+                ),
+              })}
+            </p>
+            <p className="mx-auto mt-2 max-w-3xl sm:mx-0">
+              {t.rich("footerDisclaimer", {
+                official: (chunks) => (
+                  <a
+                    href={officialActs29Url}
+                    className="underline hover:text-acts-teal"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {chunks}
+                  </a>
+                ),
+              })}
+            </p>
+          </div>
         </div>
       </div>
     </footer>

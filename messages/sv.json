@@ -27,7 +27,9 @@
     "connect": "Följ oss",
     "copyright": "© {year} Apg29",
     "coordinatorsLine": "Samordnare per land · se",
-    "infoLink": "Info"
+    "infoLink": "Info",
+    "footerCredit": "Webbplats av <credit>Bertil Tandayamo</credit>.",
+    "footerDisclaimer": "Denna webbplats är ett oberoende projekt och inte den officiella Apg29-webbplatsen. För officiell information, se <official>acts29.world</official>."
   },
   "funnel": {
     "primaryCta": "Ansök till Ecuador 2026",

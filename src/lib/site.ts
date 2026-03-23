@@ -13,6 +13,12 @@ export const site = {
   ],
 } as const;
 
+/** Canonical official Acts29 site (acts29.world). */
+export const officialActs29Url = "https://www.acts29.world/" as const;
+
+/** Site author / builder portfolio. */
+export const builderPortfolioUrl = "https://www.bertiltandayamo.dev/" as const;
+
 export type NavRoute = {
   href: `/${string}` | "/";
   navKey: "home" | "schools" | "ecuador" | "blog";
