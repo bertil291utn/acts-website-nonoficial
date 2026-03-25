@@ -50,9 +50,6 @@ export async function generateMetadata({
     title: defaultTitle,
     description: defaultDescription,
     robots: { index: true, follow: true },
-    icons: {
-      icon: [{ url: "/acts29/acts29-logo.svg", type: "image/svg+xml" }],
-    },
     openGraph: {
       type: "website",
       title: defaultTitle,
